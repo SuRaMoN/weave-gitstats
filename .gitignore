@@ -1,0 +1,6 @@
+*.weave
+*.ini
+*.ini.dist
+*.ini.remote
+deploy.config
+adminer.php

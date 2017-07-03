@@ -1,0 +1,94 @@
+#!/usr/bin/env php
+<?php
+
+error_reporting(E_ALL);
+
+set_error_handler(function ($severity, $message, $file, $line) {
+    if (error_reporting() & $severity) {
+        throw new ErrorException($message, 0, $severity, $file, $line);
+    }
+});
+
+$config = parse_ini_file(__DIR__ . '/config.ini');
+$selfPath = realpath($argv[0]);
+
+if (count($argv) == 1) {
+    $dir = sys_get_temp_dir() . '/' . uniqid('load-git-stats-', true);
+    echo "Cloning...\n";
+    passthru('git clone ' . escapeshellarg($config['git_url']) . ' ' . escapeshellarg($dir), $exitCode);
+    if (0 != $exitCode) {
+        echo 'Error while clone repo';
+        exit(1);
+    }
+    chdir($dir);
+    passthru(escapeshellcmd($selfPath) . ' --load-cwd', $exitCode);
+    if (0 != $exitCode) {
+        echo 'Error while reading stats';
+        exit(1);
+    }
+    echo "Cleaning directory\n";
+    passthru('rm -Rf ' . escapeshellarg($dir));
+    exit(0);
+}
+
+if (count($argv) == 2 && $argv[1] == '--load-cwd') {
+    echo "Reading git log...\n";
+    passthru('git log --ignore-all-space -M --numstat --date=short --pretty="%x00%at%x00%H%x00%an%x00%s%x00" | ' . escapeshellcmd($selfPath) . ' --with-input', $exitCode);
+    exit($exitCode);
+}
+
+if (count($argv) != 2 || $argv[1] != '--with-input') {
+    echo 'Unknown error';
+    exit(1);
+}
+
+$pdo = new PDO("mysql:dbname={$config['mysql_db']};host={$config['mysql_host']}", $config['mysql_user'], $config['mysql_pass'], [
+    PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
+    PDO::MYSQL_ATTR_USE_BUFFERED_QUERY => true,
+    PDO::ATTR_AUTOCOMMIT => 0
+]);
+
+$pdo->exec('DROP TABLE IF EXISTS `' . $config['mysql_table'] . '`');
+$pdo->exec('CREATE TABLE `' . $config['mysql_table'] . '` (date timestamp, hash text, author text, lines_added integer, lines_deleted integer, file text, message text)');
+
+$stdin = fopen('php://stdin', 'rb');
+$hash = null;
+$date = null;
+$author = null;
+$message = null;
+$batchSize = 0;
+while (($line = fgets($stdin)) !== false) {
+    if (substr($line, 0, 1) == "\x00") {
+        if (substr_count($line, "\x00") != 5) {
+            echo 'Error while parsing header log: "' . $line . '"';
+            exit(1);
+        }
+        list($_, $date, $hash, $author, $message) = explode("\x00", $line);
+        continue;
+    }
+    $line = trim($line);
+    if ($line == '') {
+        continue;
+    }
+    if (! preg_match('/^(\d+|-)\s+(\d+|-)\s+(.*)$/', $line, $match)) {
+        echo 'Error while parsing file stat log: "' . $line . '"';
+        exit(1);
+    }
+    list($_, $linesAdded, $linesDeleted, $file) = $match;
+    $pdo->exec('insert into `' . $config['mysql_table'] . '` values (' . implode(', ', [
+        "FROM_UNIXTIME({$pdo->quote($date)})",
+        $pdo->quote($hash),
+        $pdo->quote($author),
+        $pdo->quote($linesAdded),
+        $pdo->quote($linesDeleted),
+        $pdo->quote($file),
+        $pdo->quote($message),
+    ]) . ')');
+    $batchSize += 1;
+    if ($batchSize > 1000) {
+        $pdo->exec('COMMIT');
+        $batchSize = 0;
+    }
+}
+
+$pdo->exec('COMMIT');
