@@ -1,0 +1,14 @@
+
+# Git url to create stats for
+git_url = 
+
+# Hostname of mysql to store data
+mysql_host = 
+
+# Database to store data in, it will create a new
+# table 'files_committed' and 'files_committed_clean' (view)
+mysql_db = gitstats
+
+# Credentials for mysql database
+mysql_user = 
+mysql_pass = 

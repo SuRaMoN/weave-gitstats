@@ -42,14 +42,21 @@ if (count($argv) != 2 || $argv[1] != '--with-input') {
     exit(1);
 }
 
-$pdo = new PDO("mysql:dbname={$config['mysql_db']};host={$config['mysql_host']}", $config['mysql_user'], $config['mysql_pass'], [
+$pdo = new PDO("mysql:host={$config['mysql_host']}", $config['mysql_user'], $config['mysql_pass'], [
     PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
     PDO::MYSQL_ATTR_USE_BUFFERED_QUERY => true,
     PDO::ATTR_AUTOCOMMIT => 0
 ]);
 
-$pdo->exec('DROP TABLE IF EXISTS `' . $config['mysql_table'] . '`');
-$pdo->exec('CREATE TABLE `' . $config['mysql_table'] . '` (date timestamp, hash text, author text, lines_added integer, lines_deleted integer, file text, message text)');
+try {
+    $pdo->exec('CREATE DATABASE `' . $config['mysql_db'] . '`');
+} catch (PDOException $e) { }
+$pdo->exec('USE `' . $config['mysql_db'] . '`');
+$pdo->exec('DROP TABLE IF EXISTS `files_committed`');
+$pdo->exec('CREATE TABLE `files_committed` (date timestamp, hash text, author text, lines_added integer, lines_deleted integer, file text, message text)');
+try {
+    $pdo->exec('CREATE VIEW `files_committed_clean` AS SELECT * FROM `files_committed`');
+} catch (PDOException $e) { }
 
 $stdin = fopen('php://stdin', 'rb');
 $hash = null;
@@ -75,7 +82,7 @@ while (($line = fgets($stdin)) !== false) {
         exit(1);
     }
     list($_, $linesAdded, $linesDeleted, $file) = $match;
-    $pdo->exec('insert into `' . $config['mysql_table'] . '` values (' . implode(', ', [
+    $pdo->exec('insert into `files_committed` values (' . implode(', ', [
         "FROM_UNIXTIME({$pdo->quote($date)})",
         $pdo->quote($hash),
         $pdo->quote($author),

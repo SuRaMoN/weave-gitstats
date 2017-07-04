@@ -22,6 +22,15 @@ $config = parse_ini_file(__DIR__ . '/config.ini');
 
 <h1>Gitstats</h1>
 
+<h2>Statistics</h2>
+<ul>
+    <?php foreach (glob(__DIR__ . '/*-dashboards/*.weave') as $file) { ?>
+    <li><a href="weave.html?file=<?= htmlentities(rawurlencode(basename(dirname($file)) . '/' . basename($file))) ?>">
+        <?= htmlentities(pathinfo($file, PATHINFO_FILENAME)) ?>
+    </a></li>
+    <?php } ?>
+</ul>
+
 <h2>Tools</h2>
 <ul>
     <li>
@@ -33,15 +42,6 @@ $config = parse_ini_file(__DIR__ . '/config.ini');
 		)
 	</li>
     <li><a href="weave.html">Create new dashboard</a></li>
-</ul>
-
-<h2>Statistics</h2>
-<ul>
-    <?php foreach (glob(__DIR__ . '/*.weave') as $file) { ?>
-    <li><a href="weave.html?file=<?= htmlentities(rawurlencode(basename($file))) ?>">
-        <?= htmlentities(pathinfo($file, PATHINFO_FILENAME)) ?>
-    </a></li>
-    <?php } ?>
 </ul>
 
 </body>
