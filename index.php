@@ -38,7 +38,7 @@ $config = parse_ini_file(__DIR__ . '/config.ini');
 <h2>Statistics</h2>
 <ul>
     <?php foreach (glob(__DIR__ . '/*.weave') as $file) { ?>
-    <li><a href="weave.html?file=<?= htmlentities(rawurlencode('http://' . $_SERVER['HTTP_HOST'] . dirname($_SERVER['SCRIPT_NAME']) . '/' . basename($file))) ?>">
+    <li><a href="weave.html?file=<?= htmlentities(rawurlencode(basename($file))) ?>">
         <?= htmlentities(pathinfo($file, PATHINFO_FILENAME)) ?>
     </a></li>
     <?php } ?>
