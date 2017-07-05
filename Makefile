@@ -11,6 +11,11 @@ deploy:
 	rsync -va -e ssh . "$(SSH_PATH)"
 	scp "config.ini.remote" "$(SSH_PATH)/config.ini"
 
+docker-update:
+	HASH="$$(docker build -q .)" && \
+	docker tag "$$HASH" suramon/weave-gitstats
+	docker push suramon/weave-gitstats
+
 docker-start:
 	service mysql restart
 	service apache2 restart

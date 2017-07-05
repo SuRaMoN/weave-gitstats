@@ -1,3 +1,4 @@
 *.ini
 *.ini.remote
 deploy.config
+.git/
