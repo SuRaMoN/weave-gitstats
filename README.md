@@ -13,7 +13,7 @@ Demo for the git repository of the symfony yaml PHP library:
 
 [Git statistics for symfony/yaml](http://rawgit.com/SuRaMoN/weave-gitstats/demowebsite/index.html)
 
-Please not the online demo is limited: you cannot create data from
+Please note the online demo is limited: you cannot create data from
 your own SQL queries of the git statistics. You are limited to some
 static CSV files. For a full demo use docker for a quick setup.
 
