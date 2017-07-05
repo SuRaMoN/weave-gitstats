@@ -43,6 +43,7 @@ $config = parse_ini_file(__DIR__ . '/config.ini');
 		)
 	</li>
     <li><a href="weave.html">Create new dashboard</a></li>
+    <li><a href="export.php">Export as static HTML and CSV</a></li>
 </ul>
 <?php } ?>
 
