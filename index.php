@@ -31,6 +31,7 @@ $config = parse_ini_file(__DIR__ . '/config.ini');
     <?php } ?>
 </ul>
 
+<?php if (! isset($statisticsOnly)) { ?>
 <h2>Tools</h2>
 <ul>
     <li>
@@ -43,6 +44,7 @@ $config = parse_ini_file(__DIR__ . '/config.ini');
 	</li>
     <li><a href="weave.html">Create new dashboard</a></li>
 </ul>
+<?php } ?>
 
 </body>
 </html>

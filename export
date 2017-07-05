@@ -1,0 +1,16 @@
+#!/usr/bin/env php
+<?php
+
+if (count($argv) != 2) {
+    echo "Expected usage: {$argv[0]} <FILENAME>";
+    exit(1);
+}
+
+$exportZip = fopen($argv[1], 'wb');
+ob_start(function ($buffer) use ($exportZip) {
+    fwrite($exportZip, $buffer);
+    return '';
+});
+require(__DIR__ . '/export.php');
+ob_end_flush();
+fclose($exportZip);
