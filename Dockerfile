@@ -8,9 +8,7 @@ RUN echo 'debconf debconf/frontend select Noninteractive' | debconf-set-selectio
 
 RUN \
     apt-get update && \
-    apt-get install mysql-server apache2 libapache2-mod-php7.0 git make wget rsync php7.0-mysql
-RUN apt-get install php7.0-zip zip
-# TODO: merge line above to the one above it
+    apt-get install mysql-server apache2 libapache2-mod-php7.0 git make wget rsync php7.0-mysql php7.0-zip zip
 
 RUN a2enmod headers
 
