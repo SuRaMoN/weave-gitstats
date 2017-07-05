@@ -1,0 +1,639 @@
+Year,"Author and year",Month,"Day of the week","Year and month",Message,Author,Hash,Date,"Lines deleted","Lines added","Lines diff","Lines added logarithmic","Commit count"
+2014,"Graham Campbell-2014","11 - November",Sunday,2014-11,"[3.0] Removed some old hacks","Graham Campbell",0004c8eaa392493f307c3a154c871bba2abdbf41,"2014-11-30 21:18:40",14,1,-13,1,1
+2015,"Christophe Coevoet-2015","03 - March",Monday,2015-03,"Add parsing of hexadecimal strings for PHP 7","Christophe Coevoet",002728586819a75f6b3a11cd5d97ee4bab092c1c,"2015-03-30 07:37:12",0,12,12,1,1
+2016,"Peter Rehm-2016","08 - August",Friday,2016-08,"Improved deprecation message","Peter Rehm",0040166e1829aa8fdfe3c2a99614c5f9bdf90743,"2016-08-05 09:04:52",1,1,0,1,1
+2018,"Gabriel Ostrolucký-2018","11 - November",Sunday,2018-11,"Optimize perf by replacing call_user_func with dynamic vars","Gabriel Ostrolucký",006a538738af6b2db7459e7cfb395fc239b8eb56,"2018-11-25 01:27:51",2,2,0,1,1
+2016,"Javier Eguiluz-2016","03 - March",Thursday,2016-03,"Updated all the README files","Javier Eguiluz",006f8b8cf0bbc717b6e03f9c3b6007574894bb73,"2016-03-03 12:05:42",14,6,-8,1,1
+2015,"Fabien Potencier-2015","04 - April",Friday,2015-04,"Revert ""removed 3.0 constraints from 2.7 composer files""","Fabien Potencier",00ed50e22e1e8735eb55f2d4d18d0fbab6aa6e2a,"2015-04-10 08:55:07",1,1,0,1,1
+2014,"Tobias Schultze-2014","06 - June",Friday,2014-06,"Use PSR-4 everywhere instead of PSR-0","Tobias Schultze",014038a7df3b756159245a0afef750cabd4f42cf,"2014-06-20 19:32:40",2,1,-1,1,1
+2016,"Robin Chalas-2016","08 - August",Monday,2016-08,"[FrameworkBundle] Fix test scanning the full tmp directory","Robin Chalas",01b75ac66ea4a876ff88489af3b38cd51c87673f,"2016-08-29 18:58:41",1,4,3,1,1
+2019,"Fabien Potencier-2019","11 - November",Sunday,2019-11,"updated version to 5.1","Fabien Potencier",01fff05da0d567d6b40078e02d77b515578eee6a,"2019-11-17 18:31:35",1,1,0,1,1
+2012,"Jordi Boggiano-2012","02 - February",Saturday,2012-02,"Add branch-alias for composer","Jordi Boggiano",029384ac3a7e75b0ca80108dbc0b5baa2be0791c,"2012-02-25 02:26:20",1,6,5,1,1
+2012,"Fabien Potencier-2012","04 - April",Thursday,2012-04,"[Yaml] added CHANGELOG","Fabien Potencier",0297c0894a8e84802a0e0b476b4e3791088215c3,"2012-04-26 17:43:51",0,8,8,1,1
+2018,"Grégoire Paris-2018","11 - November",Sunday,2018-11,"Bump phpunit XSD version to 5.2","Grégoire Paris",02c1859112aa779d9ab394ae4f3381911d84052b,"2018-11-11 11:11:22",1,1,0,1,1
+2016,"Dariusz Ruminski-2016","10 - October",Sunday,2016-10,"CS: apply rules","Dariusz Ruminski",02ca7175fbfe44392c73aa1618568222a616a316,"2016-10-30 09:34:06",16,16,0,1,1
+2016,"Christian Flothmann-2016","01 - January",Wednesday,2016-01,"tag for dumped PHP objects must be a local one","Christian Flothmann",031a751bfdb7e068399d75e52bd2183c6b26bacd,"2016-01-20 19:11:57",8,40,32,1,1
+2016,"Christian Flothmann-2016","02 - February",Monday,2016-02,"deprecate starting plain scalars with % characters","Christian Flothmann",03d3eda832ca2b955d687662ea6e88809d9f4b87,"2016-02-15 17:14:40",0,27,27,1,1
+2015,pthompson-2015,"01 - January",Friday,2015-01,"Inline private 'is quoting required' methods in Escaper",pthompson,0438de727f3514906675a764859ab0c6edfdb7dd,"2015-01-16 13:12:56",27,9,-18,1,1
+2018,"Christian Flothmann-2018","01 - January",Saturday,2018-01,"trim spaces from unquoted scalar values","Christian Flothmann",049b49af1366a76f8b756840547bf9c93ac6d682,"2018-01-20 14:02:12",0,5,5,1,1
+2012,"Fabien Potencier-2012","07 - July",Monday,2012-07,"fixed CS (mainly method signatures)","Fabien Potencier",04edc329027cf987462fa4d74c1112d186212f4f,"2012-07-09 12:38:28",17,17,0,1,1
+2019,"Christian Flothmann-2019","07 - July",Thursday,2019-07,"fix inline handling when dumping tagged values","Christian Flothmann",051d045c684148060ebfc9affb7e3f5e0899d40b,"2019-07-04 20:22:47",1,105,104,100,1
+2017,"Christian Flothmann-2017","02 - February",Monday,2017-02,"fix DUMP_EMPTY_ARRAY_AS_SEQUENCE flag value","Christian Flothmann",0560fc76df68372856893df797b87a334ee7e0bf,"2017-02-20 06:42:42",1,1,0,1,1
+2016,"Christian Flothmann-2016","01 - January",Wednesday,2016-01,"[Yaml] dump customization option with dumper flags","Christian Flothmann",05e5fd69fc596707eba60d881b69f635a6d45bf7,"2016-01-27 19:42:59",13,53,40,1,1
+2011,"Fabien Potencier-2011","02 - February",Friday,2011-02,"added the LICENSE file for the YAML component","Fabien Potencier",0603a77abada52469a7b889124dae57618441613,"2011-02-18 10:52:11",0,19,19,1,1
+2012,"Fabien Potencier-2012","03 - March",Wednesday,2012-03,"moved component and bridge unit tests to the src/ directory","Fabien Potencier",0647ee4ca69b60f9043256e89f8dbaa0cedd854c,"2012-03-28 13:43:52",2,3692,3690,1000,1
+2011,"Fabien Potencier-2011","11 - November",Wednesday,2011-11,"bumped Symfony version to 2.0.6-DEV","Fabien Potencier",06b80fac67538c1a2d053aab446ed19e0dcf45a1,"2011-11-02 13:18:45",1,1,0,1,1
+2020,"Fabien Potencier-2020","08 - August",Monday,2020-08,"Fix CS","Fabien Potencier",072ad98d4a8f60c533f4663311e5a6862aada7d4,"2020-08-17 07:48:54",0,1,1,1,1
+2018,"Yonel Ceruto-2018","09 - September",Wednesday,2018-09,"[Yaml] Added support for multiple files or directories in LintCommand","Yonel Ceruto",07a9881ca56421f7c1a9e5cc5c9042c12188f10a,"2018-09-19 20:27:12",4,24,20,1,1
+2014,"Alex Pott-2014","02 - February",Saturday,2014-02,"Optimise Inline::evaluateScalar() for parsing strings.","Alex Pott",084bfa452f92563fdf770b069d4dd90654dcd8b9,"2014-02-22 14:29:19",6,10,4,1,1
+2015,"Fabien Potencier-2015","04 - April",Friday,2015-04,"bumped deps on 2.8 in all composer.json","Fabien Potencier",0855034a77bd095fad04ccb80726c5084ab89d52,"2015-04-10 07:31:54",1,1,0,1,1
+2016,"Nicolas Grekas-2016","06 - June",Thursday,2016-06,"Tweak merge","Nicolas Grekas",0855bc8c502cfad03dd348ecfdd36f1d3157dbcd,"2016-06-16 08:27:19",4,3,-1,1,1
+2017,"Titouan Galopin-2017","12 - December",Friday,2017-12,"Remove some unused variables and properties","Titouan Galopin",08b69a6fb1d159aed9ba275fd0f6d0a013c9bab8,"2017-12-08 14:48:07",2,0,-2,1,1
+2016,"Fabien Potencier-2016","05 - May",Friday,2016-05,"updated version to 3.2","Fabien Potencier",08bc755d1ef89c958d9bd69efc4e0297d668d18d,"2016-05-13 18:13:23",1,1,0,1,1
+2017,"Pierre du Plessis-2017","11 - November",Wednesday,2017-11,"[YAML] Allow to parse custom tags when linting yaml files","Pierre du Plessis",0938408c4faa518d95230deabb5f595bf0de31b9,"2017-11-08 13:32:34",4,24,20,1,1
+2017,"Christian Flothmann-2017","03 - March",Tuesday,2017-03,"[Yaml] dump escape sequences when possible","Christian Flothmann",093e416ad096355149e265ea2e4cc1f9ee40ab1a,"2017-03-07 16:47:02",1,1,0,1,1
+2019,"Robin Chalas-2019","09 - September",Monday,2019-09,"Fix lint commands frozen on empty stdin","Robin Chalas",0940ee954470f03f955c0bd01d60d1efe06079ea,"2019-09-09 06:13:16",8,10,2,1,1
+2021,LoginovIlya-2021,"01 - January",Sunday,2021-01,"[yaml] Delelte unused comparison operation",LoginovIlya,0a04eb05d15dc83f51f2d7b3563c0b51a92d4e34,"2021-01-31 15:20:26",2,2,0,1,1
+2020,"Maxime Steinhausser-2020","11 - November",Tuesday,2020-11,"[Console][Yaml] Linter: add Github annotations format for errors","Maxime Steinhausser",0ad59b6a48bda2be6bea6e279208917b195fe616,"2020-11-03 16:31:16",2,81,79,1,1
+2019,"Alexander M. Turek-2019","08 - August",Tuesday,2019-08,"Turned return type annotations of private methods into php return types.","Alexander M. Turek",0af80ab382dfb40832f23c8e7ed3b1cf3a2b5b22,"2019-08-06 15:03:31",4,1,-3,1,1
+2017,"Nicolas Grekas-2017","04 - April",Wednesday,2017-04,"[DI/Yaml] Remove `@experimental` flag from ""instanceof"" and ""prototype""","Nicolas Grekas",0b751d9e7fd1a5fe8cbdf16400c57c73a79005de,"2017-04-05 07:26:56",7,1,-6,1,1
+2011,"Lukas Kahwe Smith-2011","11 - November",Thursday,2011-11,"added basic README files for all components","Lukas Kahwe Smith",0bff1fb0d7df99a07baa0210c7321f28f2f63679,"2011-11-03 20:11:40",0,21,21,1,1
+2020,"Nicolas Grekas-2020","02 - February",Saturday,2020-02,"Leverage trigger_deprecation() from symfony/deprecation-contracts","Nicolas Grekas",0c7023a90e80d7819bb03483c027f3dee963b42a,"2020-02-01 11:00:36",4,5,1,1,1
+2013,"Erin Millard-2013","01 - January",Thursday,2013-01,"[Yaml] fixed #6773","Erin Millard",0cbc6f6d9c17a0994f42c516ac28c03332e8df68,"2013-01-17 23:42:00",6,3,-3,1,1
+2018,"Nicolas Grekas-2018","10 - October",Tuesday,2018-10,"CS fix","Nicolas Grekas",0e16589861f192dbffb19b06683ce3ef58f7f99d,"2018-10-02 16:27:16",1,1,0,1,1
+2017,"Christian Flothmann-2017","06 - June",Saturday,2017-06,"[Yaml] remove deprecated unspecific tag behavior","Christian Flothmann",0e2ccfdee6f314235f4d4a67cf247ab2243e18ea,"2017-06-24 13:18:23",6,5,-1,1,1
+2014,"Graham Campbell-2014","12 - December",Sunday,2014-12,"[2.3] CS And DocBlock Fixes","Graham Campbell",0fbbefc79ab5cc406c1a39a98912bd2b65101164,"2014-12-21 17:00:50",6,4,-2,1,1
+2014,"Tobias Schultze-2014","06 - June",Wednesday,2014-06,"[Yaml] refactoring of merges for performance","Tobias Schultze",0fdc794b7ee2ea61db67c4ad14a59bf7bd5932d7,"2014-06-18 14:18:19",10,9,-1,1,1
+2017,"Fabien Potencier-2017","01 - January",Saturday,2017-01,"fixed typo","Fabien Potencier",10e18c7f702470c0864371bc7f081f9e01d4019c,"2017-01-21 16:33:48",2,2,0,1,1
+2013,"Erin Millard-2013","03 - March",Saturday,2013-03,"[Yaml] fixed bugs with folded scalar parsing","Erin Millard",1238ede850fb8c6946a6c44963d38bbf9cad6dd1,"2013-03-23 01:54:33",53,146,93,100,1
+2020,"Joshua Nye-2020","08 - August",Wednesday,2020-08,"[Yaml] Fix for #36624; Allow PHP constant as first key in block","Joshua Nye",12473febc5f2b19756339922e55035f52558d7bb,"2020-08-05 20:33:59",2,34,32,1,1
+2014,"Graham Campbell-2014","12 - December",Tuesday,2014-12,"PSR-2 fixes","Graham Campbell",12b26e23e220b65aa9eaa1b2ff1c923423d206b9,"2014-12-02 19:42:47",0,0,0,1,1
+2020,"Thomas Calvet-2020","01 - January",Thursday,2020-01,"[Yaml] Throw on unquoted exclamation mark","Thomas Calvet",12df25eabb355cf4a562d00f68c0cecb14e46478,"2020-01-16 14:27:16",0,69,69,1,1
+2016,"Christian Flothmann-2016","02 - February",Wednesday,2016-02,"[Yaml] support to parse and dump DateTime objects","Christian Flothmann",13797a2598154e4663f31360733434e56924e20a,"2016-02-17 21:09:28",18,88,70,1,1
+2019,"Christian Flothmann-2019","12 - December",Wednesday,2019-12,"support YAML 1.2 octal notation, deprecate YAML 1.1 one","Christian Flothmann",13edc5b82e7119cc1fc20496147db633e6fbb3b8,"2019-12-04 11:12:45",12,58,46,1,1
+2015,Saro0h-2015,"03 - March",Monday,2015-03,"Removed deprecation in YAML component",Saro0h,14559abf1be07697d133d078a86577602bea3692,"2015-03-30 21:50:18",9,0,-9,1,1
+2017,"Richard Bradley-2017","01 - January",Friday,2017-01,"#20411 fix Yaml parsing for very long quoted strings","Richard Bradley",149dd4e4176b6df9b2e446f7cdefa53a4ab4ecdf,"2017-01-13 16:26:16",1,11,10,1,1
+2014,"Fabien Potencier-2014","04 - April",Wednesday,2014-04,"fixed types in phpdocs","Fabien Potencier",14e468e0d158b3b519fef0ed42fba892466b3c60,"2014-04-16 10:30:19",13,13,0,1,1
+2017,"Gabriel Ostrolucký-2017","02 - February",Saturday,2017-02,"[Yaml] Stop replacing NULLs when merging","Gabriel Ostrolucký",1509643406a1a8a79d90695e7775bd6473871447,"2017-02-25 00:07:57",19,9,-10,1,1
+2016,"Fabien Potencier-2016","01 - January",Thursday,2016-01,"fixed CS","Fabien Potencier",1548a0a971b0cc13eadab85fa7a9b1b2ee12715e,"2016-01-21 09:24:53",1,1,0,1,1
+2014,"Zachary Tong-2014","01 - January",Thursday,2014-01,"[Yaml] Added support for object maps","Zachary Tong",154fb8ffc22acc716142c4f33e4d4ce59733d150,"2014-01-23 16:32:31",13,142,129,100,1
+2015,"Teoh Han Hui-2015","08 - August",Friday,2015-08,"[Yaml] Improve newline handling in folded scalar blocks","Teoh Han Hui",1596d1d05a9a40d16a1e21e2984fbd8dc1fc8a2f,"2015-08-07 05:28:03",18,40,22,1,1
+2015,"Veres Lajos-2015","08 - August",Saturday,2015-08,"typofix - https://github.com/vlajos/misspell_fixer","Veres Lajos",162a8860e58bcd9d316e04e3af8ff96e63cb1cdb,"2015-08-08 23:21:10",1,1,0,1,1
+2017,"Fabien Potencier-2017","05 - May",Wednesday,2017-05,"updated version to 4.0","Fabien Potencier",16e14c92b9d0c309375ca569c36d50f6c948aff4,"2017-05-17 16:33:00",1,1,0,1,1
+2021,"Oskar Stark-2021","01 - January",Friday,2021-01,"Use createMock() and use import instead of FQCN","Oskar Stark",17ed9f14c1aa05b1a5cf2e2c5ef2d0be28058ef9,"2021-01-22 12:09:22",1,2,1,1,1
+2017,"Fabien Potencier-2017","05 - May",Wednesday,2017-05,"updated version to 3.4","Fabien Potencier",19248c8f75889448c79bd1184d6df0211b441de0,"2017-05-17 16:21:40",1,1,0,1,1
+2015,"Hugo Hamon-2015","01 - January",Sunday,2015-01,"Fixes more deprecation notices as per @stof review.","Hugo Hamon",193d609c031e61eb2be7218e19de834e9957be04,"2015-01-04 12:37:24",3,1,-2,1,1
+2019,"Soufian EZ ZANTAR-2019","07 - July",Friday,2019-07,"fix(yml): fix comment in milti line value","Soufian EZ ZANTAR",1a0bae04c9e207608f89a7392e35c5e93a500581,"2019-07-26 22:20:27",0,15,15,1,1
+2015,"Fabien Potencier-2015","11 - November",Monday,2015-11,"updated version to 3.1","Fabien Potencier",1a68e8eb8e842bc34b5e85f4c0c1937a5f664818,"2015-11-30 21:39:17",1,1,0,1,1
+2016,Ener-Getick-2016,"08 - August",Wednesday,2016-08,"[Yaml] Remove legacy code",Ener-Getick,1a9d264853100c597649f0218bb3c08c7bb3cbe8,"2016-08-31 13:10:08",11,0,-11,1,1
+2019,"Nicolas Grekas-2019","05 - May",Wednesday,2019-05,"Add back all conflict rules","Nicolas Grekas",1ae0b34b81363d51d4dcd52c9dabe4a6bb8940d9,"2019-05-29 08:53:30",0,3,3,1,1
+2013,"Fabien Potencier-2013","09 - September",Wednesday,2013-09,"updated the composer install command to reflect changes in Composer","Fabien Potencier",1af6027f77ed0e37dc7fd49bf45f5ed9d7ba6347,"2013-09-18 07:27:26",1,1,0,1,1
+2012,"Fabien Potencier-2012","11 - November",Friday,2012-11,"made usage of Composer autoloader for subtree-split unit tests","Fabien Potencier",1b1b0b47b07713e726081e4e01f99fa713c2346e,"2012-11-09 09:18:50",20,8,-12,1,1
+2019,"Christian Flothmann-2019","12 - December",Wednesday,2019-12,"fix parsing negative octal numbers","Christian Flothmann",1b78a23cf919e943c4730f27869bfe9b7def0e06,"2019-12-04 11:33:46",5,21,16,1,1
+2017,"Christian Flothmann-2017","01 - January",Sunday,2017-01,"parse omitted inlined mapping values as null","Christian Flothmann",1c2132ac90639f42a504e16ffeb98aa486656ab1,"2017-01-01 10:29:29",1,19,18,1,1
+2017,"Robin Chalas-2017","08 - August",Saturday,2017-08,"Add scalar typehints/return types on final/internal/private code","Robin Chalas",1cc47663ce3d30ef5dca7ea6b0462fc19ff10520,"2017-08-05 14:43:05",12,2,-10,1,1
+2011,"Dominique Bongiraud-2011","01 - January",Saturday,2011-01,"normalized license messages in PHP files","Dominique Bongiraud",1d3182063bd06de2d03ca5a0c83751faafaacc54,"2011-01-15 13:29:43",13,15,2,1,1
+2017,"Nicolas Grekas-2017","07 - July",Friday,2017-07,"Bump minimal PHP version to ^5.5.9|>=7.0.8","Nicolas Grekas",1d8c2a99c80862bdc3af94c1781bf70f86bccac0,"2017-07-28 13:02:25",1,1,0,1,1
+2017,meyerbaptiste-2017,"06 - June",Thursday,2017-06,"[Yaml] Fix typo: PARSE_KEYS_AS_STRING -> PARSE_KEYS_AS_STRINGS",meyerbaptiste,1f93a8d19b8241617f5074a123e282575b821df8,"2017-06-15 12:58:50",5,5,0,1,1
+2014,"Christian Flothmann-2014","09 - September",Wednesday,2014-09,"improve error when detecting unquoted asterisks","Christian Flothmann",1fb23d4eb7d847e9d8ba7b1d22e43d4f81da9317,"2014-09-03 17:52:14",1,24,23,1,1
+2016,"Christian Flothmann-2016","02 - February",Monday,2016-02,"[Yaml] always restore the error handler in tests","Christian Flothmann",20668c7e90009962d5a12a061d4b43de3767a0ad,"2016-02-15 18:17:14",2,2,0,1,1
+2019,"Oskar Stark-2019","03 - March",Monday,2019-03,"use behavior instead of behaviour","Oskar Stark",212a27b731e5bfb735679d1ffaac82bd6a1dc996,"2019-03-25 07:48:46",1,1,0,1,1
+2014,"Fabien Potencier-2014","11 - November",Tuesday,2014-11,"updated version to 3.0","Fabien Potencier",21ac893273b03afcc438292d9b5d513f815afd72,"2014-11-11 08:37:22",1,1,0,1,1
+2011,"Fabien Potencier-2011","11 - November",Friday,2011-11,"[Yaml] fixed dumper for floats when the locale separator is not a dot","Fabien Potencier",21cb2c0816ce88e794cc59f8401c10b73ef5c76c,"2011-11-04 07:17:10",1,11,10,1,1
+2021,"Fabien Potencier-2021","01 - January",Monday,2021-01,"Use ::class keyword when possible","Fabien Potencier",22640fbdaded94cdb3780a0e6e1dd5708e5289c9,"2021-01-11 08:47:58",53,53,0,1,1
+2020,Nyholm-2020,"10 - October",Tuesday,2020-10,"[CI] Fixed build on AppVeyor",Nyholm,22a640f6dabadc4a6db4288736d622bce52d1b1a,"2020-10-13 19:49:43",2,2,0,1,1
+2017,"Fabien Potencier-2017","05 - May",Wednesday,2017-05,"bumped minimum version to PHP 7.1","Fabien Potencier",22f979026a3de778f70a4e7462384e9a2a9c8c8b,"2017-05-17 18:41:56",2,2,0,1,1
+2016,"Paráda József-2016","02 - February",Monday,2016-02,"[Yaml] Fix wrong line number when comments are inserted in the middle of a block.","Paráda József",23d85ddfba1bff82248cc00cd3695825115f82a4,"2016-02-08 23:53:32",1,117,116,100,1
+2017,"Guilhem Niot-2017","05 - May",Monday,2017-05,"[Yaml] Recommend using quotes instead of PARSE_KEYS_AS_STRINGS","Guilhem Niot",240ab5d231719d40a20d8433914b9ea27981624a,"2017-05-29 20:10:45",39,44,5,1,1
+2011,"Fabien Potencier-2011","06 - June",Tuesday,2011-06,"[Yaml] removed support for YAML 1.1 spec","Fabien Potencier",252ddda0b6e4f86ad359ae06cd39424ef65f9784,"2011-06-14 10:31:23",42,3,-39,1,1
+2012,"Jordi Boggiano-2012","02 - February",Monday,2012-02,"Removed version field","Jordi Boggiano",2552c643a158ee7fb6c52c0dd55806055c575841,"2012-02-27 08:59:20",1,0,-1,1,1
+2015,"Christian Flothmann-2015","05 - May",Friday,2015-05,"link to https://symfony.com where possible","Christian Flothmann",263b44e71b25090a45cec9dc944bb89ef8bfb79c,"2015-05-01 14:06:45",2,2,0,1,1
+2019,"Jérémy Derussé-2019","08 - August",Monday,2019-08,"Use namespaced Phpunit classes","Jérémy Derussé",2724c44108312bca1a91948fe5280e12e8473c11,"2019-08-05 08:06:54",4,0,-4,1,1
+2015,"Tobias Schultze-2015","09 - September",Monday,2015-09,"use try-finally when possible","Tobias Schultze",2755b39308487c1004130192f7a6bc9f50dcf53c,"2015-09-28 00:26:11",3,1,-2,1,1
+2016,"Christian Flothmann-2016","05 - May",Saturday,2016-05,"chomp newlines only at the end of YAML documents","Christian Flothmann",2790a4f1d80d1cc07eeff83c8536a9306c9e7620,"2016-05-14 15:57:37",6,21,15,1,1
+2013,Olivier-2013,"08 - August",Thursday,2013-08,"[Yaml] Fix comment containing a colon on a scalar line being parsed as a hash.",Olivier,29b78f7793b07d6bb5e2aabf3b237eb230d61dfa,"2013-08-22 06:58:22",1,15,14,1,1
+2021,"Alexander M. Turek-2021","02 - February",Sunday,2021-02,"Switched to non-null defaults in exception constructors","Alexander M. Turek",29e61305e1c79d25f71060903982ead8f533e267,"2021-02-21 19:10:16",1,0,-1,1,1
+2017,"Christian Flothmann-2017","05 - May",Friday,2017-05,"[Yaml] remove deprecated features","Christian Flothmann",2a646607738a5dd9c66cc63c20c8778049e51b43,"2017-05-19 07:52:04",579,85,-494,1,1
+2017,"Richard Bradley-2017","02 - February",Friday,2017-02,"#20411 fix Yaml parsing for very long quoted strings","Richard Bradley",2aeee3b3a8d98eb7746bfb76bf2ade844c7e8e59,"2017-02-03 16:27:28",39,77,38,1,1
+2014,"Christian Flothmann-2014","11 - November",Saturday,2014-11,"don't override internal PHP constants","Christian Flothmann",2b0e2ce722af04d0d669774aee9ef45c0c5b3102,"2014-11-01 12:49:09",6,18,12,1,1
+2017,"Christian Flothmann-2017","04 - April",Tuesday,2017-04,"report deprecations when linting YAML files","Christian Flothmann",2b149283d0189b738d11a4ae04d1fa4bdcc8688b,"2017-04-04 13:06:55",0,10,10,1,1
+2015,Saro0h-2015,"01 - January",Thursday,2015-01,"Updated copyright to 2015",Saro0h,2b58669397617f4a8e12fe72f463c7a84cc6dde8,"2015-01-01 00:12:43",1,1,0,1,1
+2012,"Fabien Potencier-2012","05 - May",Saturday,2012-05,"switched to use mbstring whenever possible instead of iconv","Fabien Potencier",2b7a2e067f250bf5fbdcab5d2c8679a085f1693c,"2012-05-05 08:55:15",3,3,0,1,1
+2011,"Fabien Potencier-2011","06 - June",Monday,2011-06,"added more information about a resource in error and debug messages","Fabien Potencier",2b858b077d1e6748569fd143ae16da44b541d3f3,"2011-06-20 08:13:52",1,1,0,1,1
+2017,"Peter Rehm-2017","02 - February",Monday,2017-02,"Further refactorings to PHPUnit namespaces","Peter Rehm",2bf08e8e682950386a7ed32cb361cbf158579a99,"2017-02-20 14:23:32",4,6,2,1,1
+2015,"Mathieu Rochette-2015","07 - July",Wednesday,2015-07,"[Yaml] Nested merge keys","Mathieu Rochette",2c3e1740c02af33fe887af6c73961844ba345714,"2015-07-08 15:38:36",5,18,13,1,1
+2016,"Anton Bakai-2016","05 - May",Tuesday,2016-05,"Fix for #18843","Anton Bakai",2cb5f366f9e0df014fc93de46cc416ba0a3055f8,"2016-05-24 20:58:05",7,45,38,1,1
+2016,"Christian Flothmann-2016","06 - June",Tuesday,2016-06,"update tests to use the new error assertion helper","Christian Flothmann",2cd852f771d1574e6dbbfc74b7df70c430703ec1,"2016-06-14 12:01:38",16,3,-13,1,1
+2019,"Oskar Stark-2019","07 - July",Tuesday,2019-07,"[Yaml] Add flag to dump NULL as ~","Oskar Stark",2cf32e0bf21ecdb1b5d0546f51e8d8d6fe640954,"2019-07-23 06:41:15",3,25,22,1,1
+2019,"Christian Flothmann-2019","09 - September",Monday,2019-09,"properly catch legacy tag syntax usages","Christian Flothmann",2d43e0d14ca9a7a445070556e7760f577be699bf,"2019-09-09 11:28:51",2,15,13,1,1
+2019,natepage-2019,"11 - November",Tuesday,2019-11,"[Yaml] Implement multiline string as scalar block for tagged values",natepage,2d6c344af8f0438aeeab0b91d40800b91e4e0169,"2019-11-19 09:02:51",1,49,48,1,1
+2015,"Fabien Potencier-2015","08 - August",Monday,2015-08,"fixes CS","Fabien Potencier",2dc7b06c065df96cc686c66da2705e5e18aef661,"2015-08-24 06:53:33",2,3,1,1,1
+2017,"Nicolas Grekas-2017","09 - September",Sunday,2017-09,"CS fixes","Nicolas Grekas",2e2015b3e1be7b9dd4bec98de5d37124c47e54ee,"2017-09-17 10:10:12",0,2,2,1,1
+2014,"Nicolas Grekas-2014","05 - May",Monday,2014-05,"Lower mbstring dep, remove it for Yaml and CssSelector components","Nicolas Grekas",2e257c292cfce88bf6c894a03d0fe8d782055aee,"2014-05-12 08:37:25",39,28,-11,1,1
+2014,"sarah khalil-2014","12 - December",Thursday,2014-12,"[Tests] Silenced all deprecations in tests for 2.3","sarah khalil",2e8eb8e8bb6992d7770b29c966373c2f251192fd,"2014-12-18 19:00:19",0,4,4,1,1
+2014,"Fabien Potencier-2014","09 - September",Sunday,2014-09,"fixed CS","Fabien Potencier",2f2c974f22397a072fab19f9212673f82ef15a69,"2014-09-21 18:53:12",7,6,-1,1,1
+2017,"Nicolas Grekas-2017","04 - April",Tuesday,2017-04,"Fix bad merge","Nicolas Grekas",2f557a59ac2f869243d39e350556d4b59a3adcbc,"2017-04-11 20:42:49",21,6,-15,1,1
+2020,"Christian Flothmann-2020","09 - September",Wednesday,2020-09,"do not dump extra trailing newlines for multiline blocks","Christian Flothmann",2fcf81b432ff978981ecc20ea4020bb2a1b2c0a4,"2020-09-30 07:20:36",23,34,11,1,1
+2016,"Joschi Kuphal-2016","06 - June",Saturday,2016-06,"[YAML] Fixed parsing problem with nested DateTime lists","Joschi Kuphal",3009360ba94b4674a8b26534ee9fa130f3c28927,"2016-06-11 09:46:35",1,17,16,1,1
+2020,"Thomas Calvet-2020","01 - January",Thursday,2020-01,"[Yaml] Deprecate using the object and const tag without a value","Thomas Calvet",3024e3d84792bb4fcd86d0086111349e5ecfd48f,"2020-01-16 19:30:36",0,13,13,1,1
+2014,"Graham Campbell-2014","12 - December",Friday,2014-12,"[2.6] CS Fixes And Removed An Unused Import","Graham Campbell",304fea274d219f240dabadacf15cadbc2f05a9a5,"2014-12-05 20:11:30",0,0,0,1,1
+2017,"Peter Rehm-2017","02 - February",Monday,2017-02,"Updated PHPUnit namespaces","Peter Rehm",3083165212fc6bc7d2ec3209f09d70d02f477ac9,"2017-02-20 13:34:33",1,2,1,1,1
+2017,"Maxime Steinhausser-2017","05 - May",Thursday,2017-05,"Remove some more PHP < 7.1.3 code","Maxime Steinhausser",30e42c8e0fc8b6319f812b4badba4688149fcc8d,"2017-05-25 10:50:57",4,0,-4,1,1
+2020,"Alexander M. Turek-2020","12 - December",Saturday,2020-12,"CS: Apply ternary_to_null_coalescing fixer","Alexander M. Turek",3181afc1cda2f97a7d3f37b53f897c99944a8bd9,"2020-12-26 23:49:32",1,1,0,1,1
+2016,"Fabien Potencier-2016","06 - June",Tuesday,2016-06,"fixed CS","Fabien Potencier",318dd060b0e491d1b98a12819f03bb38061e96f3,"2016-06-21 06:03:42",1,0,-1,1,1
+2014,"Christian Flothmann-2014","08 - August",Friday,2014-08,"[YAML] resolve variables in inlined YAML","Christian Flothmann",319624e26f675bd53e8d008ca3b0b746bfb5ea65,"2014-08-15 12:16:41",20,100,80,100,1
+2019,"Thomas Calvet-2019","10 - October",Tuesday,2019-10,"[4.3] Remove unused local variables","Thomas Calvet",324cf4b19c345465fad14f3602050519e09e361d,"2019-10-29 18:32:45",1,0,-1,1,1
+2017,"Christian Flothmann-2017","08 - August",Monday,2017-08,"remove deprecated code","Christian Flothmann",33085f87019674644640b71293699c08f1135bd7,"2017-08-07 10:35:57",24,1,-23,1,1
+2019,"Claus Due-2019","10 - October",Monday,2019-10,"[YAML] Improve performance of YAML parser","Claus Due",33cd3ef21db6a8ad7a9bd9102688fa3e2fae37fc,"2019-10-21 18:04:17",34,44,10,1,1
+2014,"Christian Flothmann-2014","08 - August",Friday,2014-08,"fix handling of empty sequence items","Christian Flothmann",33dc401b87226f00834f9f08f4c445e9a9b5ef9d,"2014-08-29 11:30:22",3,40,37,1,1
+2014,"Hugo Hamon-2014","12 - December",Monday,2014-12,"Normalized @deprecated annotations.","Hugo Hamon",3431576918f634d1dd243858b8378d3758632821,"2014-12-29 23:26:56",2,4,2,1,1
+2013,"Fabien Potencier-2013","11 - November",Sunday,2013-11,"updated version to 2.5","Fabien Potencier",3446204e97b68956ba2502967d631a345202d7d8,"2013-11-24 20:15:22",1,1,0,1,1
+2014,"Laurent Ghirardotti-2014","09 - September",Friday,2014-09,"[Doc] Use Markdown syntax highlighting","Laurent Ghirardotti",34687c6236f1dfcebc874fbebd8da74d90f9f64f,"2014-09-26 10:51:50",0,2,2,1,1
+2013,"Erin Millard-2013","05 - May",Friday,2013-05,"Fixed parsing of leading blank lines in folded scalars. Closes #7989.","Erin Millard",347a7a02204433c6926ecc3f13e805bdc30e8f9f,"2013-05-10 00:09:46",2,33,31,1,1
+2016,"Christian Flothmann-2016","05 - May",Tuesday,2016-05,"[Yaml] fix falsely triggered deprecation","Christian Flothmann",34b1e0c1fec0b6557cc75ec0a468b030eb222656,"2016-05-24 18:14:09",1,5,4,1,1
+2017,"Christian Flothmann-2017","12 - December",Monday,2017-12,"parse newlines in quoted multiline strings","Christian Flothmann",36353762fdca3a0ecdce4640764efc885df979f6,"2017-12-04 13:06:32",1,30,29,1,1
+2012,"Victor Berchet-2012","03 - March",Friday,2012-03,"[PhpUnit] Fix the path to the boostrap files in the components","Victor Berchet",365389f82eaa26317bcc725e4f5c8cbb3e868761,"2012-03-30 11:49:28",1,1,0,1,1
+2012,"Florin Patan-2012","12 - December",Sunday,2012-12,"Fixed most of the docblocks/unused namespaces","Florin Patan",365b4df7802b9bb93084d2cc9a51fe88b488f956,"2012-12-16 12:02:54",0,2,2,1,1
+2016,"Roland Franssen-2016","09 - September",Sunday,2016-09,"fixed expected exception annotations","Roland Franssen",368b9738d4033c8b93454cb0dbd45d305135a6d3,"2016-09-25 08:27:07",2,2,0,1,1
+2020,"Alexander M. Turek-2020","08 - August",Saturday,2020-08,"Modernized deprecated PHPUnit assertion calls","Alexander M. Turek",36a366d9d79eccb462d4b8cbb98c5620a4e7d1ff,"2020-08-08 14:41:28",1,1,0,1,1
+2015,"Alex Pott-2015","01 - January",Monday,2015-01,"[YAML] Fix one-liners to work with multiple new lines","Alex Pott",37fd1734338864f0d62d3a33da8da2cfad9014b1,"2015-01-12 11:05:05",7,14,7,1,1
+2013,"Fabien Potencier-2013","03 - March",Friday,2013-03,"[Yaml] removed deprecated support of PHP parsin when parsing YAML files","Fabien Potencier",380cd8d8971eced1eac807972e0e85e980d90fc3,"2013-03-01 08:25:57",71,0,-71,1,1
+2013,"Martin Hasoň-2013","07 - July",Tuesday,2013-07,"Added missing files .gitignore","Martin Hasoň",3837ccd0830ef44ed5c5844403bf6f69f7998758,"2013-07-16 10:31:14",1,0,-1,1,1
+2015,"Christian Flothmann-2015","11 - November",Sunday,2015-11,"[Yaml] look for colon in parsed inline string","Christian Flothmann",385ab31021faf71b626123d1b468d95b2bfa2232,"2015-11-29 18:05:35",3,15,12,1,1
+2014,"Nicolas Grekas-2014","03 - March",Thursday,2014-03,"[Yaml] Cleanups for object maps","Nicolas Grekas",3871bd05c010f43b80d6e0facc81905d0cbd8d7f,"2014-03-27 09:46:24",218,182,-36,100,1
+2016,"Nicolas Grekas-2016","03 - March",Thursday,2016-03,"[Yaml] Fix tests","Nicolas Grekas",38aebd1045f91caaf25db0164e2703b21fb5359d,"2016-03-10 14:06:18",1,2,1,1,1
+2017,"Guilhem Niot-2017","05 - May",Thursday,2017-05,"[Yaml] Deprecate tags using colon","Guilhem Niot",38d3087a11b31cb149ac44d8446c4b0dbaedd2be,"2017-05-25 10:16:49",21,107,86,100,1
+2016,"Nicolas Grekas-2016","10 - October",Friday,2016-10,"[2.8][PhpUnitBridge] Drop ErrorAssert in favor of @expectedDeprecation","Nicolas Grekas",396784cd06b91f3db576f248f2402d547a077787,"2016-10-21 20:59:10",7,3,-4,1,1
+2015,"Fabien Potencier-2015","01 - January",Thursday,2015-01,"bumped min PHP version to 5.3.9","Fabien Potencier",39b32637d4a3b8ec02815b792b7533147b1c22bf,"2015-01-08 21:38:30",1,1,0,1,1
+2019,"Nicolas Grekas-2019","07 - July",Wednesday,2019-07,"Make tests support phpunit 8","Nicolas Grekas",39c013207d4b6472dafdc44c7173549455693919,"2019-07-31 19:19:25",5,17,12,1,1
+2014,"Fabien Potencier-2014","03 - March",Tuesday,2014-03,"[Yaml] fix for a HHVM bug","Fabien Potencier",3acf34f6993db3d873fa77ac2cb6e595db00b88d,"2014-03-04 16:04:39",3,3,0,1,1
+2016,"Diego Saint Esteben-2016","01 - January",Saturday,2016-01,"Update copyright year","Diego Saint Esteben",3c26ed0dce6e03f4baa9cc832a76445cfff85795,"2016-01-02 00:11:38",1,1,0,1,1
+2011,"Pascal Borreli-2011","04 - April",Saturday,2011-04,"[Phpdoc] Cleaning/fixing","Pascal Borreli",3d864452ca73ae5409f1434b65f0c7204a50e061,"2011-04-23 15:05:44",3,3,0,1,1
+2015,"Nicolas Grekas-2015","11 - November",Tuesday,2015-11,"Remove some more legacy code","Nicolas Grekas",3d9f37b845568054d386b31370d4b6f5eb234dd1,"2015-11-10 10:42:06",26,8,-18,1,1
+2019,"Alexander M. Turek-2019","08 - August",Monday,2019-08,"Fix inconsistent return points.","Alexander M. Turek",3dc414b7db30695bae671a1d86013d03f4ae9834,"2019-08-19 21:30:37",14,22,8,1,1
+2012,marc.weistroff-2012,"02 - February",Wednesday,2012-02,"Updated LICENSE files copyright",marc.weistroff,3e0a19133730f60ad0fb3b9190208eaa9475d4d7,"2012-02-22 09:08:30",1,1,0,1,1
+2015,"Fabien Potencier-2015","10 - October",Sunday,2015-10,"[Yaml] removed parsing of non-escaped backslash in a double-quoted string","Fabien Potencier",3ed9e6a1a707c945cbf883ff01f71c34c521426c,"2015-10-11 12:23:49",10,13,3,1,1
+2013,"Fabien Potencier-2013","01 - January",Thursday,2013-01,"[Yaml] fixed typo","Fabien Potencier",3f0e5d3c3e97d6ae05553b9543846f8f065aac72,"2013-01-17 16:53:40",1,1,0,1,1
+2015,"Nicolas Grekas-2015","10 - October",Thursday,2015-10,"[tests] Use @requires annotation when possible","Nicolas Grekas",3f5067d0c6cd989e47367bd6b010eb6306eed8a2,"2015-10-08 09:41:54",6,3,-3,1,1
+2020,"Nicolas Grekas-2020","10 - October",Wednesday,2020-10,"Remove ""version"" from composer.json files, use ""branch-version"" instead","Nicolas Grekas",3fa7e301264cf42b2f14a0c542f6c5245173fea9,"2020-10-07 12:58:11",1,3,2,1,1
+2013,"Fabien Potencier-2013","01 - January",Friday,2013-01,"updated license year","Fabien Potencier",3fc20ae831df3c823f6829dc81ffc719d50e7c73,"2013-01-04 16:58:00",1,1,0,1,1
+2021,"Christian Flothmann-2021","01 - January",Saturday,2021-01,"keep trailing newlines when dumping multi-line strings","Christian Flothmann",3fda4df5b9b28dd9ef9327b1e29d66fda887ed81,"2021-01-02 15:54:29",2,53,51,1,1
+2014,sun-2014,"02 - February",Tuesday,2014-02,"Follow-up to #10312: Fixed minor performance related issues in Yaml\Inline.",sun,40cd9e201a7dfef7aeae7788f7cf1463bea891db,"2014-02-25 00:33:01",7,9,2,1,1
+2014,"Michał Strzelecki-2014","07 - July",Thursday,2014-07,"added ability for substitute aliases when mapping in YAML is on single line","Michał Strzelecki",40dffc71d9285d60a0ea4b90d5e06860b99f5dee,"2014-07-24 08:48:45",2,73,71,1,1
+2016,"Christian Flothmann-2016","05 - May",Monday,2016-05,"[Yaml] fix exception contexts","Christian Flothmann",41280a449a4f930ed9fe58c137f6d02d13c31a64,"2016-05-23 09:57:38",5,5,0,1,1
+2020,"Christian Flothmann-2020","08 - August",Wednesday,2020-08,"fix more numeric cases changing in PHP 8","Christian Flothmann",4152e36b0f305c2a57aa0233dee56ec27bca4f06,"2020-08-26 06:25:12",1,9,8,1,1
+2014,"Christian Raue-2014","07 - July",Sunday,2014-07,"added XSD to PHPUnit configuration","Christian Raue",41b2e66b1f3149746a5d7c06d6148accd7ed9f89,"2014-07-06 09:04:43",2,3,1,1,1
+2017,"Christian Flothmann-2017","12 - December",Tuesday,2017-12,"fix parsing inline YAML spanning multiple lines","Christian Flothmann",424ac8edea2e9f62ff2b5e5d9abe889949c23f50,"2017-12-05 07:15:46",6,388,382,100,1
+2017,"Christian Flothmann-2017","01 - January",Sunday,2017-01,"[Yaml] add missing indicator character","Christian Flothmann",425dbc29b054c4c3794e618aa8119442d2d9797e,"2017-01-01 10:31:45",1,1,0,1,1
+2016,"Christian Flothmann-2016","08 - August",Saturday,2016-08,"[Yaml] improve deprecation message and changelog","Christian Flothmann",4290e55525a413cb31549fe15f8d5713b6734cf8,"2016-08-27 09:58:27",17,24,7,1,1
+2015,"Nicolas Grekas-2015","10 - October",Friday,2015-10,"[3.0] Clean Form, Validator, DowCrawler and some more","Nicolas Grekas",4309568ec719ced646b9c866f0f484212dff4ad9,"2015-10-02 12:08:08",2,0,-2,1,1
+2016,"Kévin Dunglas-2016","07 - July",Sunday,2016-07,"[Yaml] Fix PHPDoc of the Yaml class","Kévin Dunglas",434114468bd22fd7f9dc32695d3d80ab62afaf2f,"2016-07-10 09:48:49",5,5,0,1,1
+2013,"Dariusz Górecki-2013","04 - April",Tuesday,2013-04,"[CS Fix] Consistent coding-style of concatenation operator usage","Dariusz Górecki",438f79c8f81ce1eef3fdc9b516d534c88f0365b1,"2013-04-02 09:39:57",0,0,0,1,1
+2015,"Fabien Potencier-2015","04 - April",Friday,2015-04,"removed 3.0 constraints from 2.7 composer files","Fabien Potencier",43e7bee10c88f23252ee1b6b25140dc9917c3d96,"2015-04-10 07:23:38",1,1,0,1,1
+2014,"Graham Campbell-2014","11 - November",Sunday,2014-11,"Docblock fixes","Graham Campbell",4407ef96005cc649374196bb746721c4c63d747b,"2014-11-30 13:33:44",0,0,0,1,1
+2020,"Christian Flothmann-2020","11 - November",Saturday,2020-11,"remove unreachable code","Christian Flothmann",443c622d126ce0ac31f3fec97f6a713fd0ff6d6a,"2020-11-14 14:49:24",21,0,-21,1,1
+2018,"David Prévot-2018","07 - July",Monday,2018-07,"Use an empty string as default for assertEquals","David Prévot",4598d79a349f76d730f6d6c7540c9ba5065e8355,"2018-07-09 03:43:47",1,1,0,1,1
+2018,"Christian Flothmann-2018","12 - December",Tuesday,2018-12,"[Yaml] detect circular references","Christian Flothmann",463d57b3504d164cbea1aa7983508b3d71fa807c,"2018-12-18 08:15:13",0,56,56,1,1
+2016,"Robin Chalas-2016","09 - September",Wednesday,2016-09,"[Yaml] Port of #19922 for 3.2","Robin Chalas",46b44cb89d05e691f2719d468fd476d57487b487,"2016-09-14 23:10:05",1,1,0,1,1
+2015,"Dariusz Ruminski-2015","12 - December",Tuesday,2015-12,"CS: remove unneeded parentheses around control statements","Dariusz Ruminski",4713bfe818ef3097685d3c6b6bfda777deb12c2c,"2015-12-01 11:58:24",1,1,0,1,1
+2019,"Gregor Harlan-2019","10 - October",Tuesday,2019-10,"[Yaml] Throw exception for tagged invalid inline elements","Gregor Harlan",471ca8efd6b464474fbd6ba01328ab4c648bbe6b,"2019-10-15 22:08:58",4,10,6,1,1
+2021,"Fabien Potencier-2021","01 - January",Sunday,2021-01,"Use ::class keyword when possible","Fabien Potencier",471d8345168d6be8f7885f738738725db297fc5e,"2021-01-10 12:29:43",2,2,0,1,1
+2020,"Nicolas Grekas-2020","10 - October",Tuesday,2020-10,"Fix branch-version","Nicolas Grekas",482fcb68096949357bab9a8a0e0bf3327560fe61,"2020-10-13 13:20:16",1,1,0,1,1
+2015,"Dariusz Ruminski-2015","03 - March",Friday,2015-03,"CS: Unary operators should be placed adjacent to their operands","Dariusz Ruminski",48ee9a9562b58da162a9b4cd40d9ff65a050fdb9,"2015-03-27 22:06:33",0,0,0,1,1
+2013,"Fabien Potencier-2013","12 - December",Saturday,2013-12,"fixed CS for lambdas","Fabien Potencier",490c1c47049aa3ffab9ed6295a7b3a0e809e8519,"2013-12-28 07:46:05",0,0,0,1,1
+2021,"Fabien Potencier-2021","01 - January",Sunday,2021-01,"Improve composer.json descriptions","Fabien Potencier",498ad4e9bc60d9ced7212be1ebd3ad065c20ea8e,"2021-01-10 08:16:05",1,1,0,1,1
+2012,"Fabien Potencier-2012","05 - May",Friday,2012-05,"fixed CS","Fabien Potencier",49ad500448c17a4b515c8f567dbb540af3cf41ef,"2012-05-18 17:41:48",0,0,0,1,1
+2017,"Christian Flothmann-2017","04 - April",Tuesday,2017-04,"don't keep internal state between parser runs","Christian Flothmann",49c2554c1cf23c7a96d6d7d2cb8190ef6c67c63c,"2017-04-04 14:26:39",14,55,41,1,1
+2017,"Guilhem Niot-2017","05 - May",Thursday,2017-05,"[Yaml] Deprecate using the non-specific tag","Guilhem Niot",49c74eddf3bd068eab90b1989d9963c137de4ff6,"2017-05-25 09:38:18",1,10,9,1,1
+2013,"Pascal Borreli-2013","04 - April",Sunday,2013-04,"Fixed PHPDocs","Pascal Borreli",4ae89677b57212a31c2a0cb8a7e507dd0fb8b156,"2013-04-21 12:26:17",0,4,4,1,1
+2020,"Christian Flothmann-2020","05 - May",Monday,2020-05,"properly handle empty lines","Christian Flothmann",4af90fdc2d6a90178abc2d9acdce30b46349a208,"2020-05-04 16:35:27",1,1,0,1,1
+2017,"Christian Flothmann-2017","04 - April",Wednesday,2017-04,"add changelog for the DUMP_OBJECT_AS_MAP flag","Christian Flothmann",4bb699bb3705bc28479c884757101c2f6cc2189e,"2017-04-12 19:06:01",0,3,3,1,1
+2016,"Nicolas Grekas-2016","06 - June",Monday,2016-06,"Fix merge","Nicolas Grekas",4c2dc513db5a7b30fc770dedf830ca5bd1a3246e,"2016-06-06 09:00:08",2,0,-2,1,1
+2017,"Asmir Mustafic-2017","04 - April",Wednesday,2017-04,"Test case for not in-lined map-objects","Asmir Mustafic",4cbc9e28126413d15e32b31c3727f04a274ce508,"2017-04-12 10:55:45",0,19,19,1,1
+2017,SpacePossum-2017,"09 - September",Thursday,2017-09,"[CS][2.7] yoda_style, no_unneeded_curly_braces, no_unneeded_final_method, semicolon_after_instruction",SpacePossum,4cffdcfaa9cf21bd5c70263cda38e2acac55e77a,"2017-09-07 09:04:22",7,7,0,1,1
+2014,Saro0h-2014,"12 - December",Friday,2014-12,"[Yaml] Removed the ability to parse a file in Yaml::parse()",Saro0h,4d01ae4f22fb52e77ae9228f782c421831cf91cd,"2014-12-26 18:16:39",37,1,-36,1,1
+2015,"Vladimir Reznichenko-2015","06 - June",Saturday,2015-06,"[2.3] Static Code Analysis for Components","Vladimir Reznichenko",4d771d4f434f81b2ec14c55641224d4c42c25432,"2015-06-06 06:25:15",4,4,0,1,1
+2014,"Christophe Coevoet-2014","12 - December",Monday,2014-12,"Fix phpdoc and coding standards","Christophe Coevoet",4dcc4f28c026e79766688bbfec9b1edebb3796bf,"2014-12-29 22:41:34",2,1,-1,1,1
+2019,"Jérémy Derussé-2019","08 - August",Thursday,2019-08,"Disable phpunit typehint patch on 4.3 branch","Jérémy Derussé",4e543ceece26ad1678551d6f11c49ff7499fc9a8,"2019-08-08 09:17:10",7,7,0,1,1
+2019,"Fabien Potencier-2019","05 - May",Thursday,2019-05,"updated version to 4.4","Fabien Potencier",4e85fcc15b6579c7d01a65b947cfe88657293899,"2019-05-09 07:23:25",1,1,0,1,1
+2013,"Pavel Volokitin-2013","04 - April",Friday,2013-04,"[Yaml] improved boolean naming ($notEOF -> !$EOF)","Pavel Volokitin",4ef80f5c5081ad9a7e08184fc9f25c62d87e408c,"2013-04-12 09:31:52",4,4,0,1,1
+2017,"Fabien Potencier-2017","01 - January",Saturday,2017-01,"Revert ""fixed typo""","Fabien Potencier",4f01d1b6944699b47ed33c1327f66946fe693223,"2017-01-21 16:37:26",2,2,0,1,1
+2013,"Fabien Potencier-2013","11 - November",Monday,2013-11,"fixed some typos","Fabien Potencier",4f3569bb23953116281fb3a642c4266ce84a2f44,"2013-11-25 09:14:57",4,4,0,1,1
+2016,"Baptiste Clavié-2016","03 - March",Thursday,2016-03,"[Yaml] Allow using _ in some numeric notations","Baptiste Clavié",4faa06e41eb13bca35dda0f71f673a23fae6492c,"2016-03-10 11:33:16",3,20,17,1,1
+2012,"Martin Hasoň-2012","12 - December",Thursday,2012-12,"Removed useless branch alias for dev-master in composer.json","Martin Hasoň",4fdae9fa28b7abd1135afc5227a4e59af4b64e5a,"2012-12-06 08:03:32",6,1,-5,1,1
+2011,"Lenar Lõhmus-2011","03 - March",Thursday,2011-03,"Check if config/template file is actually readable before further processing","Lenar Lõhmus",501ccbc110ac26b84f06e09ff9eda91437218a86,"2011-03-03 11:17:34",1,1,0,1,1
+2020,"Christian Flothmann-2020","09 - September",Friday,2020-09,"fix parsing comments not prefixed by a space","Christian Flothmann",50f080dad477dd87a4adc855112b961cd05db8d5,"2020-09-18 08:50:51",1,11,10,1,1
+2014,"Alex Pott-2014","02 - February",Sunday,2014-02,"Improve performance of getNextEmbedBlock by removing unnecessary preg_match and function calls.","Alex Pott",510f3da842958aff9189b5ead1fc7f970fa4328e,"2014-02-23 21:20:36",5,3,-2,1,1
+2019,"Nicolas Grekas-2019","11 - November",Monday,2019-11,"Allow PHP ^7.2.5","Nicolas Grekas",51b684480184fa767b97e28eaca67664e48dd3e9,"2019-11-18 17:27:11",1,1,0,1,1
+2013,"Fabien Potencier-2013","09 - September",Thursday,2013-09,"fixed PHP 5.3 compatibility","Fabien Potencier",5227f1c7fb337b66dcaaaa2e8b3174f6018e290c,"2013-09-19 16:27:31",0,5,5,1,1
+2017,"Christian Flothmann-2017","02 - February",Friday,2017-02,"[Yaml] add tests for specific mapping keys","Christian Flothmann",52ff438214fd64810598a15c067ad27156650d6d,"2017-02-17 13:04:52",0,11,11,1,1
+2011,"Jeremy Mikola-2011","07 - July",Wednesday,2011-07,"[Yaml] Wrap numeric strings in quotes when dumping","Jeremy Mikola",53532d07d3fd7eb45a787f79f378fe55c60740bb,"2011-07-13 20:58:57",1,1,0,1,1
+2013,"Fabien Potencier-2013","09 - September",Sunday,2013-09,"[Yaml] fixed a test on PHP < 5.4","Fabien Potencier",53ba20514d06efcc3b73fdd0756f7c70141ea6bd,"2013-09-22 17:26:55",7,7,0,1,1
+2021,"Nicolas Grekas-2021","01 - January",Friday,2021-01,"[Console] enable describing commands in ways that make the `list` command lazy","Nicolas Grekas",53c6779e1f7b11d5980524d0414d6577e632edc2,"2021-01-15 12:40:32",1,2,1,1,1
+2015,"Gerrit Drost-2015","06 - June",Monday,2015-06,"Issue #14815","Gerrit Drost",54c88f3dd9bce62cb3e57a0d7dcecaa665192a4d,"2015-06-01 16:24:07",0,2,2,1,1
+2011,"Lukas Kahwe Smith-2011","01 - January",Tuesday,2011-01,"fixes else -> } else","Lukas Kahwe Smith",54d2a5524e9a53db69c705f39978d5a18329a833,"2011-01-18 15:41:21",2,1,-1,1,1
+2015,"Christian Flothmann-2015","12 - December",Monday,2015-12,"[Yaml] recognize when a block scalar is left","Christian Flothmann",55474311afce1b52042db28c2d68d0b4fcd97c93,"2015-12-28 14:55:02",15,67,52,1,1
+2019,"Christian Flothmann-2019","01 - January",Tuesday,2019-01,"update year in license files","Christian Flothmann",554a59a1ccbaac238a89b19c8e551a556fd0e2ea,"2019-01-01 13:42:07",1,1,0,1,1
+2016,"Alex Pott-2016","08 - August",Thursday,2016-08,"Add Yaml::PARSE_EXCEPTION_ON_DUPLICATE to throw exceptions on duplicates","Alex Pott",557dd1bb6dbda934f106957a8fd045935b292646,"2016-08-04 12:37:15",5,90,85,1,1
+2017,"Guilhem Niot-2017","03 - March",Monday,2017-03,"[Yaml] Fix the tests","Guilhem Niot",55913cbb38eb0672efefdce3677b4c5ec6036ae9,"2017-03-06 20:37:41",17,19,2,1,1
+2011,"Fabien Potencier-2011","06 - June",Wednesday,2011-06,"fixed CS","Fabien Potencier",55a94162aec6778aeaa3072e8c736b94dbc5e9f0,"2011-06-08 10:12:55",0,6,6,1,1
+2014,"Fabien Potencier-2014","05 - May",Friday,2014-05,"updated version to 2.6","Fabien Potencier",55d87494587666714d1275f6fe2a64fc5c71245e,"2014-05-23 14:36:49",1,1,0,1,1
+2018,"Fabien Potencier-2018","05 - May",Monday,2018-05,"updated version to 4.2","Fabien Potencier",55f138b02455b1053070e9a17be7915882c459bd,"2018-05-07 14:51:25",1,1,0,1,1
+2017,"Kévin Dunglas-2017","12 - December",Sunday,2017-12,"Update LICENSE year... forever","Kévin Dunglas",55f8cd2c04ce6c43777b0342d25f08b4662062ce,"2017-12-31 12:09:44",1,1,0,1,1
+2014,"Fabien Potencier-2014","04 - April",Saturday,2014-04,"made phpdoc types consistent with those defined in Hack","Fabien Potencier",56d8bfdc07550c5420688422144860adc7c23f2c,"2014-04-12 17:54:57",32,32,0,1,1
+2019,"Christian Flothmann-2019","07 - July",Friday,2019-07,"add some missing type declarations","Christian Flothmann",578af223ada1df1c23eec2319da6c0a323d9291c,"2019-07-26 13:36:30",16,5,-11,1,1
+2019,"Nicolas Grekas-2019","02 - February",Saturday,2019-02,"Apply php-cs-fixer rule for array_key_exists()","Nicolas Grekas",57f1ce82c997f5a8701b89ef970e36bb657fd09c,"2019-02-23 15:06:07",3,3,0,1,1
+2011,"Fabien Potencier-2011","12 - December",Sunday,2011-12,"tweaked the README files","Fabien Potencier",58e4af2963f533a8f4a6ab7af4e3469418ddb7e4,"2011-12-18 13:18:13",5,1,-4,1,1
+2017,"Nicolas Grekas-2017","03 - March",Monday,2017-03,"[Yaml] CS","Nicolas Grekas",596e1fa8e29158bbb674b3dd63831de36ecc8b51,"2017-03-20 09:41:03",15,4,-11,1,1
+2017,"Vladimir Reznichenko-2017","02 - February",Sunday,2017-02,"Static code analysis with Php Inspections (EA Extended)","Vladimir Reznichenko",59cf221085de0f9cba814a4227a84740c1df0f22,"2017-02-05 17:30:23",1,1,0,1,1
+2019,"Aleksandr Dankovtsev-2019","08 - August",Thursday,2019-08,"[Yaml] PHP-8: Uncaught TypeError: abs() expects parameter 1 to be int or float, string given","Aleksandr Dankovtsev",59ee8f44795f80b6e8dd384eb7a8a9c1782dccf4,"2019-08-01 11:16:39",1,43,42,1,1
+2019,"Alexander M. Turek-2019","08 - August",Monday,2019-08,"Fix inconsistent return points.","Alexander M. Turek",5a0b7c32dc3ec56fd4abae8a4a71b0cf05013686,"2019-08-19 21:30:37",5,3,-2,1,1
+2012,"Jakub Zalas-2012","05 - May",Friday,2012-05,"[Yaml] Fixed double quotes escaping in Dumper.","Jakub Zalas",5a30c4580d08ba2c1238391d29ae0ef13e55de7b,"2012-05-18 08:37:57",2,2,0,1,1
+2017,"Nicolas Grekas-2017","08 - August",Monday,2017-08,"[Console] Add protected static $defaultName to set the default name of a Command","Nicolas Grekas",5a58daa633a14651d7b2a34613c9b62c02faf873,"2017-08-21 08:40:46",2,6,4,1,1
+2012,"Maksim Kotlyar-2012","01 - January",Friday,2012-01,"[Yaml][Parser] changes according review","Maksim Kotlyar",5a83afdb51c116320b0e41b9f1265eabc5605f27,"2012-01-13 15:48:38",4,1,-3,1,1
+2013,"Fabien Potencier-2013","01 - January",Friday,2013-01,"updated license year","Fabien Potencier",5a9724a28d776a86c93704a0f18a330cdedcf4eb,"2013-01-04 16:59:43",1,1,0,1,1
+2017,"Christian Flothmann-2017","08 - August",Friday,2017-08,"remove legacy php/const and php/object tag support","Christian Flothmann",5aba7f50e235647634e7acf033a95572ca0cbf0a,"2017-08-04 15:42:05",106,2,-104,1,1
+2017,"Christian Flothmann-2017","04 - April",Wednesday,2017-04,"respect inline level when dumping objects as maps","Christian Flothmann",5b8d971cf750b0da206dc0ed8b8be1c74f3f00cb,"2017-04-12 19:41:43",27,110,83,100,1
+2018,"Dany Maillard-2018","08 - August",Tuesday,2018-08,"Fix code examples in PHPDoc","Dany Maillard",5baf0f821b14eee8ca415e6a0361a9fa140c002c,"2018-08-28 21:39:52",2,1,-1,1,1
+2018,"Gert de Pagter-2018","05 - May",Tuesday,2018-05,"Use symfony/polyfill-ctype","Gert de Pagter",5bbd7e6eb54413d52ae73720ef5edadd37e3fc9e,"2018-05-01 18:24:18",1,2,1,1,1
+2014,"Christian Flothmann-2014","08 - August",Friday,2014-08,"properly mask escape sequences in quoted strings","Christian Flothmann",5c650ad1ce4a71cf33cb0cac6a89a738554b51d8,"2014-08-29 11:31:22",2,33,31,1,1
+2019,"Jérémy Derussé-2019","08 - August",Monday,2019-08,"Use assertStringContainsString when needed","Jérémy Derussé",5d61fdbfabfd03c007f952837f50cba6d19ddc3e,"2019-08-05 22:37:40",3,3,0,1,1
+2019,"Thomas Calvet-2019","10 - October",Thursday,2019-10,"[Yaml][Parser] Remove the getLastLineNumberBeforeDeprecation() internal unused method","Thomas Calvet",5dca0bd4b80249e01fcd2b84627636bd7637449c,"2019-10-24 09:57:16",8,0,-8,1,1
+2012,"Fabien Potencier-2012","07 - July",Sunday,2012-07,"Revert ""raised the minimum version of PHP to 5.3.4 (closes #3856)""","Fabien Potencier",5e7bcc7d018f6e91c2689f3a75b714f6c0a999a5,"2012-07-15 10:13:51",1,1,0,1,1
+2014,"Christian Flothmann-2014","11 - November",Monday,2014-11,"compare version using PHP_VERSION_ID","Christian Flothmann",5ea930e341b90bf9ef1fed76ab85d551bce20bc2,"2014-11-17 14:32:09",3,3,0,1,1
+2015,"Nicolas Grekas-2015","10 - October",Friday,2015-10,"[ci] Enable collecting and replaying skipped tests","Nicolas Grekas",5ecb7dbc3eac894c147db3e796047808fa7d538b,"2015-10-09 16:17:11",3,4,1,1,1
+2015,"Christian Flothmann-2015","12 - December",Saturday,2015-12,"[Yaml] do not remove ""comments"" in scalar blocks","Christian Flothmann",5f77b9aeb8f7aeda000bc2fea8874f3ccf1ec523,"2015-12-05 10:55:16",6,116,110,100,1
+2020,"Thomas Calvet-2020","04 - April",Thursday,2020-04,"Use ExpectDeprecationTrait","Thomas Calvet",5f947e52ada35c6c9fb916657aad5202ffad9c21,"2020-04-16 16:48:01",4,7,3,1,1
+2015,"Christian Flothmann-2015","11 - November",Tuesday,2015-11,"[Yaml] deprecate unquoted indicator characters","Christian Flothmann",5ff00ea2999343d42398fcb793bbfc64c92235ff,"2015-11-03 07:24:46",6,54,48,1,1
+2017,"Christian Flothmann-2017","09 - September",Wednesday,2017-09,"parse merge keys with PARSE_OBJECT_FOR_MAP flag","Christian Flothmann",602c9b7e534af30191e00ef132f24ee941f1ba32,"2017-09-13 17:40:55",3,52,49,1,1
+2017,"Guilhem N-2017","02 - February",Monday,2017-02,"[Yaml] Add tags support","Guilhem N",6095f9750f91c544920eb1344a6f7d2e4e15d8ad,"2017-02-06 17:23:56",45,314,269,100,1
+2013,"Erin Millard-2013","01 - January",Thursday,2013-01,"[Yaml] fixed #6770","Erin Millard",60aac139b237d563059f3ffad92b858babe8a67d,"2013-01-17 23:32:48",0,5,5,1,1
+2014,"Fabien Potencier-2014","11 - November",Monday,2014-11,"updated version to 2.7","Fabien Potencier",6165f4b5224c22de2873deb6a3a4e622044f0705,"2014-11-10 18:00:54",1,1,0,1,1
+2018,"Laurent Bassin-2018","09 - September",Thursday,2018-09,"[Yaml] Skip parser test with root user","Laurent Bassin",61973ecda60e9f3561e929e19c07d4878b960fc1,"2018-09-20 14:39:16",0,4,4,1,1
+2015,"Peter Thompson-2015","01 - January",Monday,2015-01,"[Yaml] Improve YAML boolean escaping","Peter Thompson",6263ee4184e597cc33ab15ec86b7101eeada10f2,"2015-01-05 10:24:54",4,42,38,1,1
+2017,"Romain Neutron-2017","12 - December",Wednesday,2017-12,"[2.7][DX] Use constant message contextualisation for deprecations","Romain Neutron",62f83ca61816a6592e8e080c02235d1acb4d6a68,"2017-12-20 14:36:51",2,2,0,1,1
+2015,"Nicolas Grekas-2015","03 - March",Friday,2015-03,"[2.7] add @group legacy","Nicolas Grekas",6411b65c8bb376e35eae6a2ec023b3e8da3ea44c,"2015-03-13 17:49:40",0,3,3,1,1
+2016,"Joschi Kuphal-2016","06 - June",Saturday,2016-06,"[YAML] Fixed parsing problem with nested DateTime lists","Joschi Kuphal",647e2c7ce71794c82d5be2c4676f0ce691483c4e,"2016-06-11 09:46:35",1,17,16,1,1
+2015,"Rémi Blaise-2015","04 - April",Sunday,2015-04,"Add $objectForMap as argument of Yaml::parse()","Rémi Blaise",6489aed773c6c35b4ad7f40517d515151ea13175,"2015-04-19 16:34:12",2,3,1,1,1
+2017,"Christian Flothmann-2017","10 - October",Tuesday,2017-10,"fix refreshing line numbers for the inline parser","Christian Flothmann",64ee9d2c9cc1c5b968a1830c8d1f2f44d8114e98,"2017-10-03 15:01:31",6,8,2,1,1
+2021,"Fabien Potencier-2021","01 - January",Monday,2021-01,"Use ::class keyword when possible","Fabien Potencier",667e2f9e7b162de0809415c84f50d56420a6e209,"2021-01-11 10:11:08",1,1,0,1,1
+2013,"Fabien Potencier-2013","01 - January",Thursday,2013-01,"[Yaml] fixed unneeded BC break","Fabien Potencier",67069f62cf99dec4c6263579a472c6175a7ab2b3,"2013-01-17 21:16:19",4,4,0,1,1
+2017,"Christian Flothmann-2017","02 - February",Friday,2017-02,"[Yaml] deprecate parsing mappings without keys","Christian Flothmann",67119aa2e7d6f8a584ddc8658c9f21309eb83ead,"2017-02-17 06:51:07",0,13,13,1,1
+2011,"Fabien Potencier-2011","11 - November",Thursday,2011-11,"bumped Symfony version in composer.json files to 2.0.7","Fabien Potencier",6756c8f3c03cfbf4edb3a7ed1e9214cfd0e79e9a,"2011-11-17 05:58:37",1,1,0,1,1
+2011,"Fabien Potencier-2011","09 - September",Thursday,2011-09,"updated composer.json for 2.1","Fabien Potencier",679a8d45f34643a856b41beb0731b51177203f2c,"2011-09-29 15:40:43",1,1,0,1,1
+2011,"Fabien Potencier-2011","03 - March",Sunday,2011-03,"replaced symfony-project.org by symfony.com","Fabien Potencier",687f8a73d1070b9d77ff91e9549a3fd0e48b240c,"2011-03-06 11:40:06",14,14,0,1,1
+2017,"Christian Flothmann-2017","05 - May",Tuesday,2017-05,"[Yaml] parse PHP constants in mapping keys","Christian Flothmann",6887cbfbda140e263fadf8cc9e007a2f85ab4e31,"2017-05-23 09:43:45",2,59,57,1,1
+2020,"Fabien Potencier-2020","03 - March",Monday,2020-03,"Fix quotes in exception messages","Fabien Potencier",688cfb1f40b94f03b8ae9d8646ba5140e518315d,"2020-03-16 07:32:23",5,5,0,1,1
+2017,"Christian Flothmann-2017","08 - August",Wednesday,2017-08,"[Yaml] parse inlined tags without values","Christian Flothmann",69139ae0a52b441d616f27f6d0d8cbb43af5b36b,"2017-08-02 07:15:14",1,38,37,1,1
+2015,"Fabien Potencier-2015","10 - October",Sunday,2015-10,"[Yaml] deprecated non-escaped \ in double-quoted strings when parsing","Fabien Potencier",6941545de416c530d122618e31acfd99081dd712,"2015-10-11 12:05:15",2,40,38,1,1
+2012,"Fabien Potencier-2012","12 - December",Saturday,2012-12,"[Yaml] tweaked phpdoc (closes #6275)","Fabien Potencier",69f09b9a989c54a6c3dcb1b88c981f10fde40d62,"2012-12-15 13:02:34",1,3,2,1,1
+2011,"Fabien Potencier-2011","06 - June",Tuesday,2011-06,"fixed CS","Fabien Potencier",6af91230b7db03293594fabaea50daa1bee19501,"2011-06-14 10:16:59",2,2,0,1,1
+2019,"Yonel Ceruto-2019","09 - September",Friday,2019-09,"deprecated not passing dash symbol (-) to STDIN commands","Yonel Ceruto",6b1d00be9d7f3bcf822a85b8b358d9c4d4cae83c,"2019-09-06 22:34:50",12,14,2,1,1
+2015,"Nicolas Grekas-2015","10 - October",Wednesday,2015-10,"Rely on iconv and symfony/polyfill-*","Nicolas Grekas",6b316fb8560cc7250f0dd97936b234730c85693e,"2015-10-14 14:40:43",2,2,0,1,1
+2012,sun-2012,"08 - August",Tuesday,2012-08,"Force the value of Dumper::setIndentation($num) to be of type integer.",sun,6b3eb66a7c4495dcaa35a64dd93c8ba8c29f35d8,"2012-08-07 07:40:56",1,1,0,1,1
+2015,"Gregor Harlan-2015","03 - March",Monday,2015-03,"CS: Use ""self"" keyword instead of class name if possible","Gregor Harlan",6b7ad6604f66462a95470a36ea954ef7bfbad343,"2015-03-30 23:38:19",4,4,0,1,1
+2011,"Fabien Potencier-2011","11 - November",Wednesday,2011-11,"bumped Symfony version in composer.json files to 2.0.5","Fabien Potencier",6d7a0b450ff7c77664a1396a95df57ebc64c355c,"2011-11-02 11:42:41",1,1,0,1,1
+2015,"Nicolas Grekas-2015","11 - November",Wednesday,2015-11,"Add missing exclusions from phpunit.xml.dist","Nicolas Grekas",6d7a3b7cfdd5095e5f4318ad4c2ed20c71c74764,"2015-11-18 08:19:46",1,2,1,1,1
+2012,"Fabien Potencier-2012","01 - January",Thursday,2012-01,"removed the version attribute in all composer.json files","Fabien Potencier",6de6e5a9c77406ea5fa5ee030a45f3717b55279c,"2012-01-05 13:51:20",1,0,-1,1,1
+2016,"Nicolas Grekas-2016","11 - November",Wednesday,2016-11,"[Yaml] Clean some messages + add test case","Nicolas Grekas",6e4a258aee53c47de47c041e8326dc54d838d3a4,"2016-11-02 13:42:53",4,13,9,1,1
+2015,"Lee Rowlands-2015","01 - January",Tuesday,2015-01,"Add comment as requested","Lee Rowlands",6f22e4c529dde80e858aeda7f766e005cf7c3f31,"2015-01-06 09:37:09",0,2,2,1,1
+2018,"Gabriel Ostrolucký-2018","03 - March",Wednesday,2018-03,"Mark ExceptionInterfaces throwable","Gabriel Ostrolucký",6f9908cc34a29e279936787cb337f2d22e7d643c,"2018-03-28 21:15:25",1,1,0,1,1
+2017,"Nicolas Grekas-2017","09 - September",Thursday,2017-09,"fix merge","Nicolas Grekas",700f850401cbba81039953f439c279f47a978872,"2017-09-28 14:19:20",28,0,-28,1,1
+2019,"Nicolas Grekas-2019","08 - August",Thursday,2019-08,"[Yaml] fix test for PHP 7.4","Nicolas Grekas",70d308fa009f51bc63e5e313b867b63579319b18,"2019-08-01 12:52:58",2,2,0,1,1
+2012,"Fabien Potencier-2012","07 - July",Monday,2012-07,"fixed CS","Fabien Potencier",711eb7f1982184478995c064a132fd70b019f174,"2012-07-09 12:50:58",20,19,-1,1,1
+2019,"Christian Flothmann-2019","08 - August",Thursday,2019-08,"fix dumping not inlined scalar tag values","Christian Flothmann",717182d370fe00bf9268f9cd13e492976fa851bb,"2019-08-29 08:14:38",0,21,21,1,1
+2015,"Fabien Potencier-2015","10 - October",Friday,2015-10,"Revert ""bug #15860 [Yaml] Fix improper comments removal (ogizanagi)""","Fabien Potencier",71960c29a1554f84742f270172aa92230f163d59,"2015-10-02 10:12:23",37,12,-25,1,1
+2014,"Fabien Potencier-2014","08 - August",Thursday,2014-08,"[Yaml] fixed mapping keys containing a quoted #","Fabien Potencier",71ceeca3d8164f0c5313127b24ad056071ccf2c6,"2014-08-28 01:42:35",1,1,0,1,1
+2019,"Christian Flothmann-2019","07 - July",Saturday,2019-07,"add parameter type declarations to private methods","Christian Flothmann",71d7207d0c659bcc54573dd57edb175e64776efa,"2019-07-27 18:05:40",4,4,0,1,1
+2015,"Nicolas Grekas-2015","10 - October",Sunday,2015-10,"[PhpUnit] Auto-register SymfonyTestsListener","Nicolas Grekas",725887b209844abda9d864de722515d0fc13dd75,"2015-10-11 08:09:32",4,0,-4,1,1
+2012,"Włodzimierz Gajda-2012","04 - April",Thursday,2012-04,"[2.1][Component][Yaml] fix 4022","Włodzimierz Gajda",7269bf2f51411af9b5217a19d1017b97278ed827,"2012-04-26 17:34:19",2,138,136,100,1
+2017,"Nicolas Grekas-2017","12 - December",Friday,2017-12,"fix merge","Nicolas Grekas",73afed1aba93de5ade52aa887fc8752a16e782f5,"2017-12-08 15:52:55",0,2,2,1,1
+2020,"Christian Flothmann-2020","11 - November",Tuesday,2020-11,"fix lexing strings containing escaped quotation characters","Christian Flothmann",7531361cf38e4816821b4a12a42542b3c6143ad1,"2020-11-17 16:51:58",11,64,53,1,1
+2012,"Maksim Kotlyar-2012","01 - January",Friday,2012-01,"[Yaml][Parser] throw an exception if not readable","Maksim Kotlyar",7555587bc9bf4241b33b03190edbd690cd1ec17f,"2012-01-13 08:48:50",1,8,7,1,1
+2019,"Christian Flothmann-2019","09 - September",Monday,2019-09,"don't dump a scalar tag value on its own line","Christian Flothmann",768f817446da74a776a31eea335540f9dcb53942,"2019-09-09 11:39:48",9,16,7,1,1
+2019,"Thomas Calvet-2019","11 - November",Tuesday,2019-11,"Allow \Throwable $previous everywhere","Thomas Calvet",76de473358fe802578a415d5bb43c296cf09d211,"2019-11-12 14:50:35",1,1,0,1,1
+2018,"Gabriel Ostrolucký-2018","03 - March",Wednesday,2018-03,"Mark ExceptionInterfaces throwable","Gabriel Ostrolucký",76f0406c63aafc9bbb36c1e15847972b04ac451f,"2018-03-28 21:15:25",1,1,0,1,1
+2017,"Christian Flothmann-2017","12 - December",Monday,2017-12,"empty lines don't count for indent detection","Christian Flothmann",778b43376e3dafdeb05ace025db3ada2251f3f95,"2017-12-11 15:47:32",3,15,12,1,1
+2016,"Christian Flothmann-2016","08 - August",Thursday,2016-08,"[Yaml] improve changelog and upgrade entries","Christian Flothmann",77d486aff5621f39bb24cc71acba987229237468,"2016-08-25 06:47:13",2,3,1,1,1
+2013,"Gordon Franke-2013","03 - March",Tuesday,2013-03,"remove dead code in yaml component","Gordon Franke",783c78dcee45111f529582470b31fd682baa63c1,"2013-03-05 08:51:02",5,0,-5,1,1
+2014,"Fabien Potencier-2014","04 - April",Wednesday,2014-04,"unified return null usages","Fabien Potencier",78d453b84e6ffe788f244f194d9ddafb19a11bb0,"2014-04-16 07:15:58",2,2,0,1,1
+2011,"Fabien Potencier-2011","11 - November",Monday,2011-11,"[Yaml] Yaml::parse() does not evaluate loaded files as PHP files by default anymore","Fabien Potencier",797098c5de653ab1ba6fe8d69959a03f3150a687,"2011-11-07 15:43:15",5,14,9,1,1
+2015,WouterJ-2015,"12 - December",Sunday,2015-12,"Also transform inline mappings to objects",WouterJ,79d74943f971a026f2443c8fedd2ed8d9b0cb45e,"2015-12-20 11:25:49",0,26,26,1,1
+2012,"Fabien Potencier-2012","01 - January",Sunday,2012-01,"Revert ""merged 2.0""","Fabien Potencier",7affd2e74fbdc116bc1b6a4d940aadafe2653a89,"2012-01-08 19:42:19",0,1,1,1,1
+2017,"Robin Chalas-2017","03 - March",Wednesday,2017-03,"[Yaml] Fix error handling in parser","Robin Chalas",7b3437d363f41231ca5e351984cda5e8178f6ff6,"2017-03-22 09:36:03",1,16,15,1,1
+2017,"Maxime Steinhausser-2017","05 - May",Sunday,2017-05,"Remove PHP < 7.1.3 code","Maxime Steinhausser",7b4942bc1b832cbf1a18c381809b3f895766d866,"2017-05-21 09:14:40",5,0,-5,1,1
+2015,"Christian Flothmann-2015","12 - December",Thursday,2015-12,"cast arrays to objects after parsing has finished","Christian Flothmann",7b5c0581770a06d004072e61763df3e97df4e1ab,"2015-12-31 09:55:37",5,14,9,1,1
+2016,"Christian Flothmann-2016","02 - February",Tuesday,2016-02,"deprecate the Dumper::setIndentation() method","Christian Flothmann",7ba668695aebcb82ab48f529adcce4129a3fa719,"2016-02-09 22:58:46",3,40,37,1,1
+2017,"Christian Flothmann-2017","12 - December",Tuesday,2017-12,"do not evaluate PHP constant names","Christian Flothmann",7c97fe601f6d6399dbdfb9153ca7cb31a87f6fb3,"2017-12-05 05:42:45",3,17,14,1,1
+2016,"Nicolas Grekas-2016","10 - October",Thursday,2016-10,"[3.1][PhpUnitBridge] Drop ErrorAssert in favor of @expectedDeprecation","Nicolas Grekas",7d200b1a105f334c9578d68e812ded9f487f467a,"2016-10-20 13:28:37",5,2,-3,1,1
+2013,"Fabien Potencier-2013","01 - January",Wednesday,2013-01,"removed the .gitattributes files (closes #6605, reverts #5674)","Fabien Potencier",7dd042765a3299d7cb1627ca9e6ffdb59fc54058,"2013-01-09 08:51:07",2,0,-2,1,1
+2012,"Fabien Potencier-2012","05 - May",Friday,2012-05,"fixed CS","Fabien Potencier",7eb70264627e696aa7d2825a88d7cef053e8a302,"2012-05-18 17:37:58",0,0,0,1,1
+2015,"Abdellatif Ait boudad-2015","01 - January",Saturday,2015-01,"[Yaml] fixed parse shortcut Key after unindented collection.","Abdellatif Ait boudad",7eec0f67c7981cbee3e74c58cc40328ccaf11502,"2015-01-10 08:51:00",4,46,42,1,1
+2017,"Dany Maillard-2017","07 - July",Tuesday,2017-07,"Remove !str support","Dany Maillard",7f4a2ae68111baaa8b583c4ad713d9d1bdec05f8,"2017-07-04 14:13:47",13,0,-13,1,1
+2015,"Christian Flothmann-2015","12 - December",Saturday,2015-12,"[Yaml] fix parsing multi-line mapping values","Christian Flothmann",7fbb0dfc86370757774ff2d9bd5c3b89c9aac1a8,"2015-12-05 09:54:40",0,49,49,1,1
+2016,"Nicolas Grekas-2016","10 - October",Monday,2016-10,"[Yaml] Fix 7.1 compat","Nicolas Grekas",7ff51b06c6c3d5cc6686df69004a42c69df09e27,"2016-10-24 18:31:12",6,9,3,1,1
+2018,"Nicolas Grekas-2018","05 - May",Wednesday,2018-05,"Revert ""feature #26702 Mark ExceptionInterfaces throwable (ostrolucky)""","Nicolas Grekas",80e4bfa9685fc4a09acc4a857ec16974a9cd944e,"2018-05-30 07:24:25",1,1,0,1,1
+2012,"Fabien Potencier-2012","09 - September",Thursday,2012-09,"udpated composer.json to 2.2","Fabien Potencier",826fe43a6e3b330d79e711d2fc02540af8d10f61,"2012-09-06 18:45:30",1,1,0,1,1
+2012,"Fabien Potencier-2012","06 - June",Wednesday,2012-06,"[Yaml] fixed string parsing (closes #4561)","Fabien Potencier",8272d98f8087878db37e8e5f6d4e37c5cc783dc3,"2012-06-13 12:57:32",12,26,14,1,1
+2013,bronze1man-2013,"09 - September",Wednesday,2013-09,"Fix some annotates",bronze1man,83932dba3d30a3618c4cc2227a7538793633f8c5,"2013-09-18 12:41:53",4,4,0,1,1
+2017,"Roland Franssen-2017","03 - March",Tuesday,2017-03,"[DI] Reference tagged services in config","Roland Franssen",83acd5ab18dbd927d9cc3f873981e5ee527cbce9,"2017-03-28 10:05:21",2,4,2,1,1
+2011,"Fabien Potencier-2011","08 - August",Monday,2011-08,"[Yaml] made a small optimization","Fabien Potencier",8490b8b9a5de3fe90d1db26391c11ee9a962813d,"2011-08-22 13:06:47",1,1,0,1,1
+2012,"Fabien Potencier-2012","07 - July",Friday,2012-07,"raised the minimum version of PHP to 5.3.4 (closes #3856)","Fabien Potencier",84ec179dc8ecc36c84b3ccbd88901f867b8746a2,"2012-07-13 19:21:01",1,1,0,1,1
+2015,"Fabien Potencier-2015","01 - January",Thursday,2015-01,"[Yaml] maked a test as being for deprecated feature","Fabien Potencier",8510fcb79eb4d71bc6a969341f2d492bf749409c,"2015-01-08 11:43:03",1,1,0,1,1
+2015,"Nicolas Grekas-2015","07 - July",Tuesday,2015-07,"[php7] Fix for substr() always returning a string","Nicolas Grekas",85b490ec117bf36fb3966ecb3df89cf31edf07c9,"2015-07-28 12:35:05",1,1,0,1,1
+2012,"Romain Neutron-2012","08 - August",Thursday,2012-08,"[Yaml] Normalize exceptions","Romain Neutron",85d2214b48520852137ddba501e379049d7c23bd,"2012-08-30 19:54:08",4,27,23,1,1
+2017,"Christian Flothmann-2017","04 - April",Tuesday,2017-04,"fix risky tests","Christian Flothmann",86219ff2bfc2fc0ce79860292eaea79f24469eda,"2017-04-11 09:19:47",8,23,15,1,1
+2019,"Christian Flothmann-2019","12 - December",Wednesday,2019-12,"prevent notice for invalid octal numbers on PHP 7.4","Christian Flothmann",86849af5b396b63b65d2230aae5e4b6e0c3d9caa,"2019-12-04 11:12:45",4,20,16,1,1
+2016,"Christian Flothmann-2016","02 - February",Tuesday,2016-02,"[Yaml] mark the Inline class as internal","Christian Flothmann",86cf93648fbda9ec810771c1058fe23c61e5697e,"2016-02-09 19:49:29",0,2,2,1,1
+2016,"Christian Flothmann-2016","02 - February",Monday,2016-02,"[Yaml] properly parse lists in object maps","Christian Flothmann",871f18db4b0c115e19dfaf339df18c4d76e43602,"2016-02-08 18:04:09",20,66,46,1,1
+2019,"Fabien Potencier-2019","01 - January",Wednesday,2019-01,"fixed CS","Fabien Potencier",874d9210fe0ad4f6326a45d163ad815a71ad8b38,"2019-01-16 18:56:49",118,118,0,100,1
+2016,"Christian Flothmann-2016","05 - May",Saturday,2016-05,"[Yaml] deprecate comma separators in floats","Christian Flothmann",87c705367ab481cb01154d4efad22867ce55343f,"2016-05-14 16:19:31",14,101,87,100,1
+2017,"Nicolas Grekas-2017","10 - October",Saturday,2017-10,"Remove useless docblocks","Nicolas Grekas",88036f65093341da0b427b26c01cd0e7dad94309,"2017-10-28 18:51:46",15,15,0,1,1
+2014,"Nicolas Grekas-2014","11 - November",Wednesday,2014-11,"[3.0] Update required PHP to 5.5.9","Nicolas Grekas",8823b96ef20c786d8833e34e4664a37124360ab4,"2014-11-19 21:23:28",1,1,0,1,1
+2020,"Nicolas Grekas-2020","10 - October",Saturday,2020-10,"Remove branch-version (keep them for contracts only)","Nicolas Grekas",88289caa3c166321883f67fe5130188ebbb47094,"2020-10-24 10:23:57",4,1,-3,1,1
+2013,"Fabien Potencier-2013","01 - January",Sunday,2013-01,"[Yaml] fixed wrong merge (indentation default is 4 as of 2.1)","Fabien Potencier",882b70fb7072e3f1fa95d249fd527a4e3998dc1a,"2013-01-27 16:12:43",1,1,0,1,1
+2011,"Matthew Lewinski-2011","03 - March",Saturday,2011-03,"[Yaml] Improved support for double quoted values.","Matthew Lewinski",8865226de6191de6c477890a55251bcbadb31e4e,"2011-03-05 21:39:48",8,237,229,100,1
+2016,"Christian Flothmann-2016","01 - January",Wednesday,2016-01,"[Yaml] deprecate parsing the !!php/object tag","Christian Flothmann",886a29d7c005582f171e18eb395caf8b2673bd0a,"2016-01-20 19:22:01",2,10,8,1,1
+2020,"Christian Flothmann-2020","03 - March",Saturday,2020-03,"[Yaml] fix dumping strings containing CRs","Christian Flothmann",8874912e45f5588167a0c0c9bbe744a8c628faaf,"2020-03-07 11:56:51",2,17,15,1,1
+2015,"Christian Flothmann-2015","01 - January",Friday,2015-01,"execute cheaper checks before more expensive ones","Christian Flothmann",88a2dfd89c6b033db6dd406fcec1f08b981b6254,"2015-01-16 14:59:09",8,8,0,1,1
+2010,"Fabien Potencier-2010","08 - August",Friday,2010-08,"renamed Symfony\Components to Symfony\Component","Fabien Potencier",88d5c1b80350cc5729083079b2eb5c0edfcb1b95,"2010-08-20 21:09:55",0,1134,1134,1000,1
+2017,"Christian Flothmann-2017","09 - September",Thursday,2017-09,"include file and line no in deprecation message","Christian Flothmann",89039980a2b2ef6d8d0672153331f5d70df102c0,"2017-09-28 10:45:51",28,56,28,1,1
+2013,"Fabien Potencier-2013","12 - December",Saturday,2013-12,"[Yaml] fixed some license headers","Fabien Potencier",8a22ac63e5fcdd95e1ed2c3f1ec9c335d7bea59a,"2013-12-28 07:37:38",0,4,4,1,1
+2012,sun-2012,"08 - August",Saturday,2012-08,"Added Yaml\Dumper::setIndentation() method to allow a custom indentation level of nested nodes.",sun,8a6017b5fe411214f25af5d25365b656be77d4b9,"2012-08-04 22:46:53",2,21,19,1,1
+2020,soyuka-2020,"04 - April",Thursday,2020-04,"[PhpUnitBridge] add PolyfillTestCaseTrait::expectExceptionMessageMatches to provide FC with recent phpunit versions",soyuka,8a65d0f3ca54da83f464963d8f674307a5afcdcd,"2020-04-09 17:51:19",7,7,0,1,1
+2017,"Christian Flothmann-2017","02 - February",Monday,2017-02,"deprecate implicit string casting of mapping keys","Christian Flothmann",8a93b808d1ce205b64b28d706c893a5bbef93441,"2017-02-20 06:08:19",94,284,190,100,1
+2015,"Dariusz Ruminski-2015","04 - April",Thursday,2015-04,"CS fixes","Dariusz Ruminski",8b200e4afc5fda6e78b70f5cb8e9d5f524273c75,"2015-04-16 07:01:03",6,6,0,1,1
+2015,"Fabien Potencier-2015","01 - January",Thursday,2015-01,"[Yaml] removed deprecation notices on internal constant","Fabien Potencier",8b64b532b1ee17d1c407754a7cff8ba36ea2c87e,"2015-01-08 11:13:07",22,2,-20,1,1
+2017,Dariusz-2017,"09 - September",Friday,2017-09,"CS: recover no_break_comment",Dariusz,8bf9136eaf1c7d5678962a4ec5df0dad46c05db2,"2017-09-15 10:36:22",0,1,1,1,1
+2017,"Christian Flothmann-2017","12 - December",Tuesday,2017-12,"fix some edge cases with indented blocks","Christian Flothmann",8c26ed8855a04741f357780cd22103bb366623fd,"2017-12-05 10:00:13",6,102,96,100,1
+2015,"Fabien Potencier-2015","11 - November",Monday,2015-11,"removed @covers annotations in tests","Fabien Potencier",8c4ca8fcc7a7aa0637b5153871d7bffbcdd88df8,"2015-11-02 20:25:31",5,0,-5,1,1
+2011,"Martin Schuhfuss-2011","05 - May",Thursday,2011-05,"[Yaml] added exceptions when non-utf8 encoding is detected","Martin Schuhfuss",8c5992e4bad2482bb8c28f0475c536eec57772f8,"2011-05-12 20:02:56",0,4,4,1,1
+2012,"Fabien Potencier-2012","05 - May",Tuesday,2012-05,"fixed phpdoc @param alignment","Fabien Potencier",8c927aeea740bd14f5ea7b5d1e169da30f66b2f9,"2012-05-15 16:56:32",0,0,0,1,1
+2020,Nyholm-2020,"11 - November",Monday,2020-11,"Added test for issue 39229",Nyholm,8cac71faa8bd6cf9ea17de01f452c48a6e6a0ce6,"2020-11-30 10:43:40",0,23,23,1,1
+2019,"Nicolas Grekas-2019","10 - October",Thursday,2019-10,"Replace STDIN by php://stdin","Nicolas Grekas",8caed6e8ff735a962ec032373a8c01493d69acca,"2019-10-17 12:23:42",12,2,-10,1,1
+2019,"Fabien Potencier-2019","05 - May",Tuesday,2019-05,"updated version to 5.0","Fabien Potencier",8d8932cf753bd75d8304fa99fa0f21247ed88563,"2019-05-28 12:18:42",1,1,0,1,1
+2014,"Hugo Hamon-2014","12 - December",Tuesday,2014-12,"Fixes more deprecation notices.","Hugo Hamon",8e744ef95c9029d50bf1bace2c6347362586274b,"2014-12-30 09:01:12",6,31,25,1,1
+2021,"Christian Flothmann-2021","01 - January",Saturday,2021-01,"quote all dumped unicode spaces","Christian Flothmann",8e9fcae3d1ffe1179d0e41075eea40ee2e87a081,"2021-01-09 12:36:14",1,20,19,1,1
+2014,"Harm van Tilborg-2014","08 - August",Tuesday,2014-08,"Added fixture to test parsing of hash keys ending with a space and #","Harm van Tilborg",8f55e1a45316224c1baf70eb2514248f812de2a7,"2014-08-19 12:37:53",0,8,8,1,1
+2015,"Christian Flothmann-2015","12 - December",Saturday,2015-12,"[Yaml] fix indented line handling in folded blocks","Christian Flothmann",8f5afcffca793f82fb28e941b6234185c099964f,"2015-12-05 16:57:30",16,89,73,1,1
+2010,"Fabien Potencier-2010","11 - November",Monday,2010-11,"[Yaml] fixed parsing of simple inline documents","Fabien Potencier",8fc2cd0d17305ca0fb711700ce6ec75b5332775e,"2010-11-29 20:09:02",2,2,0,1,1
+2020,sdkawata-2020,"04 - April",Friday,2020-04,"[YAML] escape DEL(\x7f)",sdkawata,8fef49ac1357f4e05c997a1f139467ccb186bffa,"2020-04-24 10:16:04",1,4,3,1,1
+2019,"Fabien Potencier-2019","01 - January",Wednesday,2019-01,"switched array() to []","Fabien Potencier",9015c612e93c907a68e573313ea2f79fb95f8b04,"2019-01-16 09:39:14",732,732,0,500,1
+2017,"Maxime Steinhausser-2017","03 - March",Wednesday,2017-03,"[Yaml] Fix legacy support for omitting mapping key","Maxime Steinhausser",902dfb757bbeab73e75258685b3661f92bbe087d,"2017-03-01 22:34:49",3,3,0,1,1
+2017,"Wybren Koelmans-2017","06 - June",Thursday,2017-06,"[Yaml][Twig][Lint] Added line numbers to JSON output.","Wybren Koelmans",90ab944ea2031de9a11468067326d9b99450ecc1,"2017-06-29 20:55:41",2,12,10,1,1
+2011,"Xavier Perez-2011","02 - February",Monday,2011-02,"[Yaml] Added PHPDoc on getTimestampRegex()","Xavier Perez",90c1f5ef64fa08cbbd4dfa1865f45b69000611ee,"2011-02-07 12:57:27",0,5,5,1,1
+2016,"Guilhem N-2016","12 - December",Wednesday,2016-12,"[Yaml] Small optimization of the parser","Guilhem N",90cba5f4048ba22bfa6db4b1dac48e2daf0062ae,"2016-12-07 16:45:19",3,3,0,1,1
+2016,"Nicolas Grekas-2016","06 - June",Thursday,2016-06,"Fix merge","Nicolas Grekas",90ce58f949595578032eab7208238e99ca5dc2d2,"2016-06-16 08:33:40",3,0,-3,1,1
+2015,"Nicolas Grekas-2015","06 - June",Thursday,2015-06,"[PhpUnitBridge] Enforce @-silencing of deprecation notices according to new policy","Nicolas Grekas",917af7bb1286fd5d0bc06049089721ad0cdad145,"2015-06-18 18:45:22",2,0,-2,1,1
+2014,"David Fuhr-2014","11 - November",Saturday,2014-11,"Adjust error_reporting to allow deprecation messages for 3.0","David Fuhr",917c465cb3a5c175b5eeb8691c7f4e68b8e6a8e2,"2014-11-29 11:55:00",0,6,6,1,1
+2015,maxime.steinhausser-2015,"10 - October",Friday,2015-10,"[Yaml] Add regression test for comments indents",maxime.steinhausser,91993279b08acfc395e2bad74f7ef5da993e1b52,"2015-10-02 11:13:24",0,26,26,1,1
+2016,"Fabien Potencier-2016","08 - August",Saturday,2016-08,"fixed CS","Fabien Potencier",91aab601eec635b9c06232a6b0a05cdd251d34f8,"2016-08-27 16:29:21",0,0,0,1,1
+2020,"Jan Rosier-2020","01 - January",Wednesday,2020-01,"Update year in license files","Jan Rosier",91f7f20984ca0f1b8398eb6c232c382668282861,"2020-01-01 11:03:25",1,1,0,1,1
+2016,"Robin Chalas-2016","06 - June",Tuesday,2016-06,"Add Yaml LintCommand","Robin Chalas",91fe65bcc407fbb0d8842ed691242db2672b0172,"2016-06-21 23:06:25",0,313,313,100,1
+2016,"Christian Flothmann-2016","02 - February",Saturday,2016-02,"[Yaml] add support for the !!binary tag","Christian Flothmann",921ba0d947a08f17fbae52321c9ffa31a78d5937,"2016-02-20 09:54:12",2,181,179,100,1
+2017,"Christian Flothmann-2017","03 - March",Sunday,2017-03,"[Yaml] deprecate ""? "" starting unquoted strings","Christian Flothmann",9399377c7e95315f758d34db1ded605b93285959,"2017-03-19 21:19:14",2,60,58,1,1
+2016,"Christian Flothmann-2016","06 - June",Tuesday,2016-06,"update tests to use the new error assertion helper","Christian Flothmann",95a2e68dfb974e511431a94ab8b4c9416814e5d1,"2016-06-14 12:01:38",17,5,-12,1,1
+2016,Konstantin.Myakshin-2016,"01 - January",Monday,2016-01,"Static code analysis",Konstantin.Myakshin,965ea1040df2608ae95845884ed4dceef6c4726e,"2016-01-25 17:00:36",1,0,-1,1,1
+2020,"Andre Eckardt-2020","09 - September",Wednesday,2020-09,"[Yaml Parser] fixed Parser to skip comments when inlining sequences","Andre Eckardt",96800ef6b2bb3564ce19b16fad4e5bc54347a09e,"2020-09-02 20:39:27",1,31,30,1,1
+2020,"Christian Flothmann-2020","08 - August",Sunday,2020-08,"account for is_numeric() behavior changes in PHP 8","Christian Flothmann",968ffcfa6554b05a38c69b5c20d351e5dc4a4f15,"2020-08-23 07:58:10",1,1,0,1,1
+2018,guiguiboy-2018,"07 - July",Sunday,2018-07,"Added deprecation notice when mapping keys are found in multi-line blocks",guiguiboy,9744e5991d1436620c3d01b507160b31803546f3,"2018-07-08 14:43:43",0,24,24,1,1
+2017,"Fabien Potencier-2017","06 - June",Thursday,2017-06,"feature #23294 [Yaml][Lint] Add line numbers to JSON output. (WybrenKoelmans)","Fabien Potencier",989487ac285bea8c1e3b0b4d3b365e0d34edb681,"2017-06-29 21:22:16",2,12,10,1,1
+2020,"Christian Flothmann-2020","11 - November",Monday,2020-11,"fix lexing inline sequences/mappings with trailing whitespaces","Christian Flothmann",991946073a141cf572414d8f36055ff8dd99fd64,"2020-11-30 12:47:21",2,2,0,1,1
+2013,"Nikita Konstantinov-2013","08 - August",Friday,2013-08,"[Yaml] Fixed filename in the ParseException message","Nikita Konstantinov",991da8aa9fcdf13c812ded76522a181b8ae7d39c,"2013-08-30 23:32:21",3,33,30,1,1
+2014,Disquedur-2014,"10 - October",Wednesday,2014-10,"Remove aligned '=>' and '='",Disquedur,99b4ee756136039b7378fda126dbba7a3b24c2af,"2014-10-22 18:27:13",0,0,0,1,1
+2017,"Christian Schmidt-2017","02 - February",Friday,2017-02,"Bump version number","Christian Schmidt",99c2623c689e70a82b0e319b075361a98653774c,"2017-02-17 07:57:20",1,1,0,1,1
+2013,"Pavel Volokitin-2013","04 - April",Friday,2013-04,"[Yaml] fixed handling an empty value","Pavel Volokitin",9a0076da0ceff31a88d596606615eaf38f8c17e7,"2013-04-12 09:29:40",3,12,9,1,1
+2011,"Fabien Potencier-2011","05 - May",Saturday,2011-05,"[Yaml] tweaked error message","Fabien Potencier",9a5dc42f6611d6c103e6c0dc1c4688994fd68a89,"2011-05-14 15:37:28",1,1,0,1,1
+2017,"Robin Chalas-2017","05 - May",Monday,2017-05,"CS Fixes","Robin Chalas",9a5f840277ab3a89e501432035c3607764712172,"2017-05-22 07:27:42",9,1,-8,1,1
+2017,"Fabien Potencier-2017","12 - December",Sunday,2017-12,"fixed some deprecation messages","Fabien Potencier",9a6ca01991cece765810a16fd1c92b74df280fac,"2017-12-31 06:25:36",16,16,0,1,1
+2013,"Fabien Potencier-2013","01 - January",Thursday,2013-01,"added a way to enable/disable object support when parsing/dumping","Fabien Potencier",9ac8f42274256945557a52c2bde1b91894a6a626,"2013-01-17 08:34:45",25,65,40,1,1
+2020,Nyholm-2020,"10 - October",Wednesday,2020-10,"[CI] Silence errors when remove file/dir on test tearDown()",Nyholm,9ae9181cd6dc339bfc3791104baf0b2227494c58,"2020-10-14 07:00:24",2,2,0,1,1
+2011,"Hugo Hamon-2011","02 - February",Sunday,2011-02,"[Yaml] fix some php documentation","Hugo Hamon",9b3d27c21dcb4fb744f354cc7b0fc79215dfb340,"2011-02-13 14:31:54",5,7,2,1,1
+2015,"Martin Hujer-2015","11 - November",Sunday,2015-11,"[Yaml] minor CS cleaning","Martin Hujer",9b86f8bddf3a500bb9d4995c299090c4bdb16da9,"2015-11-29 07:43:05",4,4,0,1,1
+2017,"Robin Chalas-2017","06 - June",Tuesday,2017-06,"[Yaml] Fix linting yaml with constants as keys","Robin Chalas",9b8c71a7bbc786fbc7c94545115398d00b2eb38b,"2017-06-13 20:44:19",1,16,15,1,1
+2017,"Fabien Potencier-2017","12 - December",Sunday,2017-12,"fixed some deprecation messages","Fabien Potencier",9bd000cba4bf6451d85f9e58c1d0255b85ac6b94,"2017-12-31 05:33:21",40,40,0,1,1
+2016,"Noah Heck-2016","11 - November",Thursday,2016-11,"[YAML] Fix processing timestamp with timezone","Noah Heck",9da375317228e54f4ea1b013b30fa47417e84943,"2016-11-17 15:00:37",11,15,4,1,1
+2016,"Christian Flothmann-2016","03 - March",Thursday,2016-03,"dump non UTF-8 encoded strings as binary data","Christian Flothmann",9dd47fa1836997509fa13e9543adf4b4800f6dda,"2016-03-24 12:13:08",15,12,-3,1,1
+2016,"Christian Flothmann-2016","03 - March",Tuesday,2016-03,"ensure dump indentation to be greather than zero","Christian Flothmann",9e27bd3669f45df045a25c069572c8dd9c3a5d68,"2016-03-01 20:23:51",0,44,44,1,1
+2018,"Alex Pott-2018","01 - January",Saturday,2018-01,"Yaml parser regression with comments and non-strings","Alex Pott",9e642c34b2bbf0df9b3278cbfcba69f6b1266eca,"2018-01-13 21:35:11",25,46,21,1,1
+2015,"Nicolas Grekas-2015","02 - February",Tuesday,2015-02,"[2.3] require-dev PHPUnit bridge","Nicolas Grekas",9ec0da59db894b19a5c1cf157d65bae3db607b5b,"2015-02-24 08:06:17",2,4,2,1,1
+2012,"Fabien Potencier-2012","06 - June",Saturday,2012-06,"merged branch jakzal/yamlDoubleQuotesDumperFix (PR #4320)","Fabien Potencier",9f3d53aee27329fc2b2294cd032454384059aa72,"2012-06-09 15:04:17",2,10,8,1,1
+2017,"Christian Schmidt-2017","01 - January",Tuesday,2017-01,"Dump empty object as mapping","Christian Schmidt",a066341b7584e0b1213a16d64ecb20882466b813,"2017-01-31 13:59:05",3,3,0,1,1
+2014,"Hugo Hamon-2014","12 - December",Sunday,2014-12,"Adds deprecation notices for structures to be removed in 3.0.","Hugo Hamon",a07570ddc4525ec9928c1dd1cbbfecbec0d2eceb,"2014-12-21 11:39:54",3,3,0,1,1
+2015,"Fabien Potencier-2015","01 - January",Thursday,2015-01,"added missing error_reporting","Fabien Potencier",a07f9e52073ec44627239c02f974bdfba29bfbc8,"2015-01-08 12:57:51",0,2,2,1,1
+2011,"Fabien Potencier-2011","03 - March",Tuesday,2011-03,"[Yaml] moved most protected methods and properties to private","Fabien Potencier",a0f73ddc69c0b90af5b71a075f27dec5ee8cce56,"2011-03-08 19:33:19",25,25,0,1,1
+2016,"Nicolas Grekas-2016","10 - October",Thursday,2016-10,"[PhpUnitBridge] Drop ErrorAssert in favor of @expectedDeprecation","Nicolas Grekas",a11873c7aaff241b50edfa82a03d1715c22ce0ee,"2016-10-20 13:28:37",7,4,-3,1,1
+2012,sun-2012,"08 - August",Saturday,2012-08,"Added Yaml\Dumper::setIndentation() method to allow a custom indentation level of nested nodes.",sun,a12975569e2583d67b370cdc85c86f9169b1bdac,"2012-08-04 22:46:53",2,21,19,1,1
+2015,"David Stone-2015","09 - September",Monday,2015-09,"[Yaml] Allow tabs before comments at the end of a line","David Stone",a15e1a2db58b58564cd302c17d3d02b8ed9c8393,"2015-09-14 15:56:48",3,6,3,1,1
+2021,"Simon Berger-2021","01 - January",Sunday,2021-01,"Changed private static array-properties to const","Simon Berger",a17099038cb640ed283c07f5f18a6902494acdfb,"2021-01-24 22:22:56",3,3,0,1,1
+2015,"Christian Flothmann-2015","11 - November",Tuesday,2015-11,"[Yaml] sync changelog and upgrade files","Christian Flothmann",a1a044d22b3eb82eb5c98ac2dcb240f1fa873b93,"2015-11-24 20:31:58",1,2,1,1,1
+2016,"Fabien Potencier-2016","01 - January",Thursday,2016-01,"fixed CS","Fabien Potencier",a297b2274b86a72af940438f718b3bbef7d9120f,"2016-01-21 06:28:40",2,2,0,1,1
+2011,"Jordi Boggiano-2011","02 - February",Friday,2011-02,"[Yaml] Fix warning","Jordi Boggiano",a310e67736cd26b7f0897d4949dc23fa863b7f70,"2011-02-18 10:37:03",1,1,0,1,1
+2016,"Christian Flothmann-2016","02 - February",Tuesday,2016-02,"[Yaml] fix typos in changelog and upgrade files","Christian Flothmann",a3b577f07d988fe457820eca07f6a415206ef0a0,"2016-02-09 20:01:34",1,1,0,1,1
+2013,"Christophe Coevoet-2013","10 - October",Thursday,2013-10,"[Yaml] Fixed the escaping of strings starting with a dash when dumping","Christophe Coevoet",a3e81e895bde9964f0956e747badf2890aed5c05,"2013-10-10 22:23:27",4,6,2,1,1
+2019,Reedy-2019,"10 - October",Saturday,2019-10,"Add .gitignore to .gitattributes",Reedy,a3e84ba6d7563272eeec77dcb309b4f285735feb,"2019-10-12 00:27:05",0,1,1,1,1
+2018,Anto-2018,"03 - March",Saturday,2018-03,"[Yaml] Fix regression when trying to parse multiline",Anto,a42f9da85c7c38d59f5e53f076fe81a091f894d0,"2018-03-03 14:10:27",1,51,50,1,1
+2013,"Fabien Potencier-2013","01 - January",Thursday,2013-01,"[Yaml] deprecated the possibility to pass a file name to Yaml::parse()","Fabien Potencier",a43656845f677a0f308f97667b2789410b67dc36,"2013-01-17 14:01:21",0,4,4,1,1
+2011,"Fabien Potencier-2011","03 - March",Thursday,2011-03,"[Yaml] tagged the guaranteed BC API","Fabien Potencier",a474fe2e242efc83635f5f18f5649cde6f7ff92b,"2011-03-24 08:02:09",0,6,6,1,1
+2012,"Markus Lanthaler-2012","04 - April",Thursday,2012-04,"[Yaml] fixed phpdoc (closes symfony/Yaml#3)","Markus Lanthaler",a4d4995ebe3735dbaea72e0bcd8d9a142f059bee,"2012-04-05 13:34:44",1,1,0,1,1
+2017,"Christian Flothmann-2017","05 - May",Sunday,2017-05,"[Yaml] fix colon without space deprecation","Christian Flothmann",a50618736c7d3183afe5dba4dd7477512d5fa359,"2017-05-21 12:39:29",5,10,5,1,1
+2019,Nyholm-2019,"09 - September",Thursday,2019-09,"Adding .gitattributes to remove Tests directory from ""dist""",Nyholm,a520095d57ad8e7423c4ebce26eee8376508e584,"2019-09-05 15:26:55",0,2,2,1,1
+2015,"Alexander Schwenn-2015","01 - January",Saturday,2015-01,"[Yaml] Update README.md","Alexander Schwenn",a52353bbc7b813819cec08635acd6b98b5f57e28,"2015-01-03 10:27:34",1,1,0,1,1
+2019,"Jérémy Derussé-2019","08 - August",Friday,2019-08,"Remove use of ForwardCompatTrait","Jérémy Derussé",a551af10419a758d341b95e659064317635eeda4,"2019-08-02 17:02:27",22,7,-15,1,1
+2014,"Alex Pott-2014","02 - February",Sunday,2014-02,"Avoid unnecessary line indentation calculation.","Alex Pott",a68fb8dbcf5ef2a8006e96756aa05f99169cef95,"2014-02-23 10:43:36",3,3,0,1,1
+2016,"Christian Flothmann-2016","12 - December",Saturday,2016-12,"do not trigger deprecations for valid YAML","Christian Flothmann",a7095af4b97a0955f85c8989106c249fa649011f,"2016-12-10 10:07:06",3,5,2,1,1
+2015,"Anne-Sophie Bachelard-2015","10 - October",Friday,2015-10,"added the new Composer exclude-from-classmap option","Anne-Sophie Bachelard",a718a62616b82c8067278a5a52edd8d927b5587c,"2015-10-30 19:48:51",1,4,3,1,1
+2015,"Lee Rowlands-2015","01 - January",Tuesday,2015-01,"Remove duplicate 'require'","Lee Rowlands",a74c466ce11eb90cd44488273c351bc7e28f366b,"2015-01-06 04:18:13",1,1,0,1,1
+2019,"Jérémy Derussé-2019","08 - August",Thursday,2019-08,"Replace calls to setExpectedException by Pollyfill","Jérémy Derussé",a77d5fe87f20df61c5b048ac6c8841d648b0e961,"2019-08-01 14:27:42",20,0,-20,1,1
+2020,"Christian Flothmann-2020","01 - January",Monday,2020-01,"fix PHP const mapping keys using the inline notation","Christian Flothmann",aa46bc2233097d5212332c907f9911533acfbf80,"2020-01-13 08:00:59",0,7,7,1,1
+2015,reecefowell-2015,"06 - June",Sunday,2015-06,"Silence invasive deprecation warnings, opt-in for warnings",reecefowell,ab70351f4ec4b09419e061235fe4733cc55a726b,"2015-06-07 06:33:05",1,1,0,1,1
+2012,"Paul Matthews-2012","04 - April",Friday,2012-04,"Fixed quoting issues with Yaml Inline Parser","Paul Matthews",ac5634a4c8ce908685d01ed0eef4cd249c1e3a11,"2012-04-20 15:15:12",1,43,42,1,1
+2018,"Christophe Coevoet-2018","07 - July",Thursday,2018-07,"Enable the fixer enforcing fully-qualified calls for compiler-optimized functions","Christophe Coevoet",acaaa95755095337c08d68fccc6454c6d6fed648,"2018-07-05 11:24:53",37,37,0,1,1
+2021,"Oskar Stark-2021","01 - January",Thursday,2021-01,"No patch version in CHANGELOG","Oskar Stark",acc0ba107094bc42426cf568db6a114e37e875e5,"2021-01-14 07:17:09",2,2,0,1,1
+2017,"Christian Flothmann-2017","11 - November",Monday,2017-11,"substitute aliases in inline mappings","Christian Flothmann",ad601e4f5eee2e4f336f2d318d06b2594f92ddb9,"2017-11-20 07:47:12",60,23,-37,1,1
+2017,"Christian Flothmann-2017","04 - April",Wednesday,2017-04,"fail when detecting risky tests","Christian Flothmann",add8d73e32d482b78e6900add9f32e3e353fbb61,"2017-04-12 06:19:06",0,2,2,1,1
+2020,"Christian Flothmann-2020","12 - December",Tuesday,2020-12,"fix lexing backslashes in single quoted strings","Christian Flothmann",ae13f070834e5beb0b30d5090869e81ce60be8cd,"2020-12-01 14:29:09",1,8,7,1,1
+2017,"Guilhem N-2017","01 - January",Saturday,2017-01,"[Yaml] Remove an unused argument","Guilhem N",ae2442352815c6803bf163d8968335b7c1542885,"2017-01-07 11:16:59",7,6,-1,1,1
+2016,"Jakub Zalas-2016","01 - January",Wednesday,2016-01,"[YAML] Refine the return value of Yaml::parse()","Jakub Zalas",ae864991a53f9c1ee2b9df5ae5de2b8c16d9a5e7,"2016-01-27 16:53:33",5,2,-3,1,1
+2015,"Vladimir Reznichenko-2015","03 - March",Saturday,2015-03,"Php Inspections (EA Extended) - static code analysis includes:","Vladimir Reznichenko",aeb83d10b5ab9c9dd9993fc340a190a935646de7,"2015-03-07 19:12:23",10,11,1,1,1
+2012,"Włodzimierz Gajda-2012","07 - July",Wednesday,2012-07,"[Finder] tests for Yaml class","Włodzimierz Gajda",aeba5f4c420d04996b2fd46b0ca35dbd4ed2bab5,"2012-07-04 16:22:41",0,42,42,1,1
+2016,"Christian Flothmann-2016","02 - February",Wednesday,2016-02,"[Yaml] fix default timezone to be UTC","Christian Flothmann",af253bbd4841b3f6b088a0a35307ecc8c53da2c9,"2016-02-17 21:15:58",4,9,5,1,1
+2017,"Nicolas Grekas-2017","05 - May",Wednesday,2017-05,"[Yaml] Add missing deprecation annotation","Nicolas Grekas",af35d97b3567663abe0a4704efe0818d38aaf05b,"2017-05-24 08:41:50",0,2,2,1,1
+2018,"Christian Flothmann-2018","01 - January",Saturday,2018-01,"don't split lines on carriage returns when dumping","Christian Flothmann",af615970e265543a26ee712c958404eb9b7ac93d,"2018-01-20 15:04:53",2,9,7,1,1
+2016,"Christian Flothmann-2016","02 - February",Tuesday,2016-02,"dumper flag to enable exceptions on invalid types","Christian Flothmann",afb873f754be4a65ab95d1fe52c65eaf044e9fec,"2016-02-09 19:56:50",23,65,42,1,1
+2020,"Nicolas Grekas-2020","10 - October",Tuesday,2020-10,"Remove ""branch-alias"", populate ""version""","Nicolas Grekas",afffc8b278fbd16b55d2ee30022b9fc10f16e42f,"2020-10-06 11:13:36",5,1,-4,1,1
+2016,"Fabien Potencier-2016","11 - November",Saturday,2016-11,"updated version to 3.3","Fabien Potencier",b009b78abb48cff1010c51d2a2283141239a9be6,"2016-11-19 20:35:20",1,1,0,1,1
+2021,"Christian Flothmann-2021","01 - January",Thursday,2021-01,"slightly clarify command descriptions","Christian Flothmann",b1181c4c3af776c5e516b8b0fe1d86330840cd32,"2021-01-21 10:46:59",1,1,0,1,1
+2016,"Nicolas Grekas-2016","01 - January",Wednesday,2016-01,"[Yaml] Fix tests on PHP 7.0.2","Nicolas Grekas",b202959e06e6c64c6516f19645e98fd4d9284da7,"2016-01-13 08:54:41",4,4,0,1,1
+2016,"Jules Pietri-2016","04 - April",Saturday,2016-04,"[Yaml] added support for parsing PHP constants","Jules Pietri",b2c4f0f1401619c43071be4cbd760559196441cf,"2016-04-23 05:47:09",0,63,63,1,1
+2010,"Fabien Potencier-2010","08 - August",Tuesday,2010-08,"[FrameworkBundle] added support for previous exceptions in the exception pages","Fabien Potencier",b33aecce1b093d2f82f0456a15f02ca698a7b6d9,"2010-08-24 10:52:55",1,1,0,1,1
+2017,"Christian Flothmann-2017","10 - October",Tuesday,2017-10,"treat trailing backslashes in multi-line strings","Christian Flothmann",b3680a0bbbbaaed73a14c7282ee3c0a550421e7a,"2017-10-03 15:15:12",4,28,24,1,1
+2020,"Tobias Schultze-2020","03 - March",Wednesday,2020-03,"add missing gitattributes for phpunit-bridge","Tobias Schultze",b404374a6b674ee3cec3df4786ec39b24f8ddced,"2020-03-25 21:25:16",0,1,1,1,1
+2014,sun-2014,"05 - May",Thursday,2014-05,"Fixed YAML Parser does not ignore duplicate keys, violating YAML spec.",sun,b4b09c68ec2f2727574544ef0173684281a5033c,"2014-05-15 00:05:21",5,87,82,1,1
+2019,"Nicolas Grekas-2019","05 - May",Tuesday,2019-05,"Allow Symfony 5.0","Nicolas Grekas",b4d262d40ed43dd77ff3bd1fdc9919d8e237a3b5,"2019-05-28 15:41:12",1,1,0,1,1
+2019,"Yonel Ceruto-2019","09 - September",Monday,2019-09,"remove legacy code from STDIN commands","Yonel Ceruto",b512bb316bdb4c78225548bc306483f53a24ca08,"2019-09-09 02:35:18",9,5,-4,1,1
+2016,"Remi Collet-2016","07 - July",Friday,2016-07,"skip test with current phpunit bridge","Remi Collet",b57a8d1b316b6aaf6dc77852fed4ddb8adac77a7,"2016-07-01 06:55:04",0,1,1,1,1
+2017,"Nicolas Grekas-2017","05 - May",Wednesday,2017-05,"[3.4] Allow 4.* deps","Nicolas Grekas",b5805507d6ec2b4721353e7cec544c7daad8d585,"2017-05-24 09:02:43",1,1,0,1,1
+2020,"Wouter Diesveld-2020","05 - May",Monday,2020-05,"[Yaml] fix parse error when unindented collections contain a comment","Wouter Diesveld",b5b70b9a8d2666d710e856f019f5ff3c7ece8a5c,"2020-05-04 09:46:19",0,20,20,1,1
+2011,"Fabien Potencier-2011","12 - December",Tuesday,2011-12,"[DoctrineBridge] fixed some CS","Fabien Potencier",b5c391e8129c6b400cd19f550aedbfc1df807442,"2011-12-13 07:50:54",4,4,0,1,1
+2015,"Gregor Harlan-2015","12 - December",Monday,2015-12,"use nowdoc instead of heredoc","Gregor Harlan",b7d1b5c233cd872c0699f12af02c3f8e78684614,"2015-12-21 11:01:57",29,29,0,1,1
+2020,"Julien Falque-2020","09 - September",Monday,2020-09,"Prevent parsing invalid octal digits as octal numbers","Julien Falque",b7d9b4a68b72ab7a6f0e6389c83acc1c4728df27,"2020-09-07 18:13:13",6,6,0,1,1
+2018,"Fabien Potencier-2018","01 - January",Wednesday,2018-01,"fixed years in copyright","Fabien Potencier",b7f540832f96d31ad4201ba008d6abf529ae9722,"2018-01-03 07:23:28",1,1,0,1,1
+2017,"Tyson Andre-2017","04 - April",Monday,2017-04,"Fix minor phpdoc mismatches with the code(detected by phan)","Tyson Andre",b8e3f3b9b575ce4271b41041b1fa4b438d0c4273,"2017-04-17 03:24:02",10,12,2,1,1
+2014,"Wouter J-2014","12 - December",Tuesday,2014-12,"Fixed deprecation version","Wouter J",b9c19ce1bd9a51d3f42665973088f2e2b82db240,"2014-12-09 17:32:32",2,2,0,1,1
+2019,"Christian Flothmann-2019","09 - September",Monday,2019-09,"fix lexing nested sequences/mappings","Christian Flothmann",b9ce672150e2544cb7919f10c06ddd5496d2e121,"2019-09-23 22:08:17",60,295,235,100,1
+2019,"Fabien Potencier-2019","01 - January",Wednesday,2019-01,"fixed CS on YAML fixtures","Fabien Potencier",ba11776e9e6c15ad5759a07bffb15899bac75c2d,"2019-01-16 10:59:17",318,318,0,100,1
+2019,"Christian Flothmann-2019","09 - September",Friday,2019-09,"hint to the --parse-tags when parsing tags fails","Christian Flothmann",baddff9b0322de9c4ed106b0886deee456548d71,"2019-09-20 14:22:14",1,10,9,1,1
+2012,"Fabien Potencier-2012","05 - May",Wednesday,2012-05,"fixed test","Fabien Potencier",bb3d972da6a6dbbe919bceec1149a5c459c2e26b,"2012-05-16 05:44:57",0,0,0,1,1
+2017,"Nicolas Grekas-2017","10 - October",Saturday,2017-10,"Replace more docblocks by type-hints","Nicolas Grekas",bb53b8735e4d8566d84f9e796322b3698399ee01,"2017-10-28 18:15:32",45,1,-44,1,1
+2013,"Fabien Potencier-2013","09 - September",Sunday,2013-09,"[Yaml] fixed typo","Fabien Potencier",bb697b6617b90c91b2a65d24ce32035afe5e3418,"2013-09-22 17:30:19",1,1,0,1,1
+2016,"Christian Flothmann-2016","08 - August",Saturday,2016-08,"[Yaml] sync test and actually triggered message","Christian Flothmann",bb724807a22695a72d5cd8262620e3286c3ea806,"2016-08-27 11:14:18",1,1,0,1,1
+2020,"Nicolas Grekas-2020","12 - December",Tuesday,2020-12,"Apply ""visibility_required"" CS rule to constants","Nicolas Grekas",bbce94f14d73732340740366fcbe63363663a403,"2020-12-08 16:59:59",21,21,0,1,1
+2017,"Richard van Laak-2017","06 - June",Friday,2017-06,"[Yaml] Clarify ""incompatible key casting"" deprecation message","Richard van Laak",bc6329b589f0c01e275d6bfc6a746bff6eb05a04,"2017-06-02 08:44:49",3,4,1,1,1
+2020,"Thomas Calvet-2020","01 - January",Tuesday,2020-01,"[Yaml][Inline] Fail properly on empty object tag and empty const tag","Thomas Calvet",bc63e15160866e8730a1f738541b194c401f72bf,"2020-01-14 08:16:44",0,56,56,1,1
+2011,"Lukas Kahwe Smith-2011","02 - February",Friday,2011-02,"some fixes by just ""blindly"" trying to make phpStorm code analysis happier","Lukas Kahwe Smith",bd14fe13b7c89ca4d7bcca2d3f770dbe1b594230,"2011-02-04 18:10:13",1,1,0,1,1
+2017,"Jordan Samouh-2017","03 - March",Wednesday,2017-03,"[Component] [Yaml] [Parser] :  can parse with trailing space as 2.8","Jordan Samouh",bd17d508c08e7862f4a7630ce49eaff66237039e,"2017-03-29 10:18:37",1,12,11,1,1
+2017,"Christian Flothmann-2017","08 - August",Tuesday,2017-08,"[Yaml] mark some classes as final","Christian Flothmann",bd9dcffc3eb2984afd4c534864f2802eccd3435a,"2017-08-29 20:51:11",0,8,8,1,1
+2016,"Robin Chalas-2016","06 - June",Thursday,2016-06,"[Yaml] Avoid using both Input/Output and SymfonyStyle in LintCommand","Robin Chalas",bec0b09d72ea1aa8c7d8d9591b850a69611d4c75,"2016-06-23 19:46:29",11,15,4,1,1
+2014,"Fabien Potencier-2014","04 - April",Saturday,2014-04,"made types consistent with those defined in Hack","Fabien Potencier",bee9ade74d267d3b9cd485f587f2ffcf3d740e78,"2014-04-12 17:44:00",1,1,0,1,1
+2013,"Eddie Jaoude-2013","02 - February",Thursday,2013-02,"Added unit tests to Dumper","Eddie Jaoude",befe12a920f8229535854bf11c5917f4e23f0e90,"2013-02-21 09:16:13",23,49,26,1,1
+2015,maxime.steinhausser-2015,"09 - September",Monday,2015-09,"[Yaml] Fix improper comments removal inside strings",maxime.steinhausser,bf55724c33d351908b6d60ed51dcce4df0cd0f35,"2015-09-21 13:29:45",12,37,25,1,1
+2011,"Pascal Borreli-2011","02 - February",Sunday,2011-02,"[Yaml] Removed useless else","Pascal Borreli",bfb8c07375f314f2809f2bab24a0f0566113de87,"2011-02-27 17:30:31",2,2,0,1,1
+2012,"Igor Wiedler-2012","10 - October",Thursday,2012-10,"[2.1] Exclude tests from zips via gitattributes","Igor Wiedler",c02e2fbb794dae841d00765c37d66d9e9b6f40ea,"2012-10-04 15:17:57",0,2,2,1,1
+2015,"Christian Flothmann-2015","07 - July",Wednesday,2015-07,"[Yaml] throw a ParseException on invalid data type","Christian Flothmann",c044d1744b8e91aaaa0d9bac683ab87ec7cbf359,"2015-07-22 06:30:32",1,16,15,1,1
+2017,"Christian Flothmann-2017","09 - September",Friday,2017-09,"[Yaml] add inline parser context initializer","Christian Flothmann",c076a2d6f809130a84f99616b425b9665b3ce0a5,"2017-09-01 06:00:27",7,18,11,1,1
+2019,"Pierre du Plessis-2019","08 - August",Monday,2019-08,"[Yaml] Removed unused $nullAsTilde property","Pierre du Plessis",c0c63203e16d56238597a0b75f3ac60d3a6b6148,"2019-08-05 08:53:31",2,0,-2,1,1
+2016,"Christian Flothmann-2016","02 - February",Monday,2016-02,"[Yaml] add option to dump objects as maps","Christian Flothmann",c0de3e6388a499899c33edb904e58d12bad8cc9c,"2016-02-08 17:17:53",0,45,45,1,1
+2020,"Nicolas Grekas-2020","09 - September",Wednesday,2020-09,"Enable ""native_constant_invocation"" CS rule","Nicolas Grekas",c2162b5d026711659e7e9b93a4b0b80f5f28c291,"2020-09-02 16:06:40",67,67,0,1,1
+2012,"Fabien Potencier-2012","01 - January",Wednesday,2012-01,"fixed some phpdoc","Fabien Potencier",c2c765d9cb5862f28a58c226a21e45f1c872563b,"2012-01-11 14:45:55",2,2,0,1,1
+2011,"Ryan Weaver-2011","01 - January",Friday,2011-01,"[Standards] Changing many instances of ""boolean"" to ""Boolean"".","Ryan Weaver",c2d1ebf476d5058555b0d5551c48976f8bb43ba9,"2011-01-21 01:39:28",1,1,0,1,1
+2020,"Nicolas Grekas-2020","05 - May",Wednesday,2020-05,"Use "">="" for the ""php"" requirement","Nicolas Grekas",c2d2cc66e892322cfcc03f8f12f8340dbd7a3f8a,"2020-05-20 08:37:50",1,1,0,1,1
+2018,"Christian Flothmann-2018","08 - August",Friday,2018-08,"clean up unused code","Christian Flothmann",c2f4812ead9f847cb69e90917ca7502e6892d6b8,"2018-08-10 07:34:36",36,0,-36,1,1
+2011,"Fabien Potencier-2011","06 - June",Tuesday,2011-06,"[Yaml] moved exceptions to their own sub-namespace (added a specific exception for the dump)","Fabien Potencier",c3e1d03effe339de6940f69a4d0278ea34665702,"2011-06-14 10:44:54",38,216,178,100,1
+2020,"Christian Flothmann-2020","12 - December",Tuesday,2020-12,"fix lexing mapping values with trailing whitespaces","Christian Flothmann",c4960cdc3d358fc3ac8ec565514182ac1c22348a,"2020-12-01 16:22:27",3,11,8,1,1
+2019,"Nicolas Grekas-2019","05 - May",Tuesday,2019-05,"Bump deps to ^4.4|^5.0 for Symfony 5.0","Nicolas Grekas",c4963c6571631e969bd629de15ac41b436ff922d,"2019-05-28 17:17:01",4,1,-3,1,1
+2018,"Yonel Ceruto-2018","05 - May",Thursday,2018-05,"Hide short exception trace by default","Yonel Ceruto",c5010cc1692ce1fa328b1fb666961eb3d4a85bb0,"2018-05-03 23:18:14",3,5,2,1,1
+2012,"Fabien Potencier-2012","06 - June",Wednesday,2012-06,"[Yaml] fixed ignored text when parsing an inlined mapping or sequence (closes #6786)","Fabien Potencier",c508a879829976e30f05e16b96a7ed024ee82ce1,"2012-06-13 12:57:32",3,23,20,1,1
+2015,"Jose Gonzalez-2015","09 - September",Saturday,2015-09,"[Yaml] Fix the parsing of float keys","Jose Gonzalez",c5bf1240e11167adb8619accc12af637b6ad8350,"2015-09-12 15:58:59",0,23,23,1,1
+2017,"Dany Maillard-2017","07 - July",Tuesday,2017-07,"Add some meta infos","Dany Maillard",c5c56c0a15a7051b6a79ec69e5b5816e11b5d61a,"2017-07-04 17:44:25",0,1,1,1,1
+2018,"Christian Flothmann-2018","08 - August",Wednesday,2018-08,"save preg_match() calls when possible","Christian Flothmann",c6a122d108722a129659b7e7a30d23d74cdfa1db,"2018-08-01 18:31:02",8,10,2,1,1
+2020,"Markus Fasselt-2020","09 - September",Friday,2020-09,"[Yaml Parser] Fix edge cases when parsing multiple documents","Markus Fasselt",c6d162b398759eaa01158d9f21a61a3b8effd9de,"2020-09-18 08:16:56",0,34,34,1,1
+2019,"Nicolas Grekas-2019","08 - August",Friday,2019-08,"Adopt `@PHPUnit55Migration:risky` rule of php-cs-fixer","Nicolas Grekas",c90e14eacbafa4d1d25e8722e3968335bd27edc5,"2019-08-02 13:23:07",1,0,-1,1,1
+2012,"Pascal Borreli-2012","12 - December",Friday,2012-12,"Fixed typos","Pascal Borreli",c91b7a64ab9b3787d0e45380ef22c8afc1392003,"2012-12-14 22:27:02",1,1,0,1,1
+2015,"Nicolas Grekas-2015","06 - June",Tuesday,2015-06,"Towards 100% HHVM compat","Nicolas Grekas",c956b2c07393b09ca8eecf3697a6d843635f355b,"2015-06-30 06:51:58",5,9,4,1,1
+2016,"Christian Flothmann-2016","02 - February",Saturday,2016-02,"option to dump multi line strings as scalar blocks","Christian Flothmann",c9821ffc2965d57b0404e40ef08dc8da642238f2,"2016-02-27 09:37:11",0,42,42,1,1
+2019,"Jan Schädlich-2019","11 - November",Tuesday,2019-11,"[Yaml] Introduce yaml-lint binary","Jan Schädlich",ca793490fabef2d96290e92a533ea2e9159af865,"2019-11-12 21:43:16",0,57,57,1,1
+2017,"Peter Rehm-2017","02 - February",Wednesday,2017-02,"Update to PHPUnit namespaces","Peter Rehm",cb20be77d126b06a97be8a123cc769bb281500e9,"2017-02-08 07:24:27",5,10,5,1,1
+2011,"Joris de Wit-2011","09 - September",Thursday,2011-09,"change nested collection indentation from 2 to 4","Joris de Wit",cc7ccbd520cc573659e748b934f3516a06852d12,"2011-09-22 21:48:21",1,1,0,1,1
+2016,"Christian Flothmann-2016","11 - November",Friday,2016-11,"[Yaml] set arguments depending on the PHP version","Christian Flothmann",cc82ea636b5d55c1385f92cdb1083391e9577ee3,"2016-11-04 10:57:19",1,6,5,1,1
+2014,Saro0h-2014,"12 - December",Wednesday,2014-12,"Removed all $that variables",Saro0h,ce4e2aa64706c710fea7ea1a986265b6e43f0005,"2014-12-03 22:04:33",3,2,-1,1,1
+2017,"Fabien Potencier-2017","11 - November",Tuesday,2017-11,"updated version to 4.1","Fabien Potencier",cf16b193ab0e18aaebf1bdd7404cab9a859e5429,"2017-11-21 17:31:29",1,1,0,1,1
+2015,"Nicolas Grekas-2015","01 - January",Tuesday,2015-01,"[PhpUnitBridge] new bridge for testing with PHPUnit","Nicolas Grekas",d04b39229628a0cc36ae5616db9c7f6f7119ac8f,"2015-01-13 14:17:46",3,4,1,1,1
+2015,"Fabien Potencier-2015","02 - February",Sunday,2015-02,"renamed composer.phar to composer to be consistent with the Symfony docs","Fabien Potencier",d06c0f932e2b14264494d1bda506551bd2436b57,"2015-02-08 07:41:14",1,1,0,1,1
+2015,"Christian Flothmann-2015","06 - June",Tuesday,2015-06,"[Yaml] remove partial deprecation annotation","Christian Flothmann",d0afbab8f86d58637d0378d7793659579d7fb959,"2015-06-09 20:29:28",2,0,-2,1,1
+2013,"Jean-François Simon-2013","08 - August",Saturday,2013-08,"[Yaml] fixed embedded folded string parsing","Jean-François Simon",d135717c1a42cb566cc09433658e7e8dbbe30b0a,"2013-08-24 06:35:53",4,43,39,1,1
+2017,"Peter Rehm-2017","02 - February",Monday,2017-02,"Refactored other PHPUnit method calls to work with namespaced PHPUnit 6","Peter Rehm",d19eb3e30b277389c72fe9bc42543c158215e865,"2017-02-20 14:21:46",0,4,4,1,1
+2015,"Christophe Coevoet-2015","12 - December",Tuesday,2015-12,"Reapply the Yaml bugfix of #16745","Christophe Coevoet",d21e957e7b834ad45bee2bfaa0b32927176fad58,"2015-12-01 16:13:59",5,17,12,1,1
+2017,"Fabien Potencier-2017","01 - January",Monday,2017-01,"updated LICENSE year","Fabien Potencier",d25ffc4256452e66680318df206c4a803c6b743a,"2017-01-02 20:30:00",1,1,0,1,1
+2017,"Christian Flothmann-2017","12 - December",Friday,2017-12,"do not eagerly filter comment lines","Christian Flothmann",d31d4c9f1c0b2d1eb82182e54b7491caa6e524ae,"2017-12-01 10:47:04",13,20,7,1,1
+2017,"Nicolas Grekas-2017","03 - March",Monday,2017-03,"[Yaml] Fix pcre.backtrack_limit reached","Nicolas Grekas",d3a4b00f32c012d9515f6daa217f289a59b2bc4a,"2017-03-20 10:10:47",5,16,11,1,1
+2014,"Christian Flothmann-2014","07 - July",Saturday,2014-07,"fix some docblocks","Christian Flothmann",d4174c9d4560601ec905660a724c7be02c8c2fbd,"2014-07-26 12:09:47",0,2,2,1,1
+2017,"Christian Flothmann-2017","09 - September",Wednesday,2017-09,"include file and line number in deprecation","Christian Flothmann",d44c30626e9b57ff57887a75525f67fb8ea9b137,"2017-09-13 18:06:14",29,29,0,1,1
+2019,"Fabien Potencier-2019","01 - January",Wednesday,2019-01,"fixed CS","Fabien Potencier",d461670ee145092b7e2a56c1da7118f19cadadb0,"2019-01-16 20:35:37",7,7,0,1,1
+2018,"Fabien Potencier-2018","11 - November",Monday,2018-11,"updated version to 4.3","Fabien Potencier",d4fc8a5d43d55a89c6baa856215ec39108fc33a0,"2018-11-26 16:19:01",1,1,0,1,1
+2016,"Fabien Potencier-2016","06 - June",Tuesday,2016-06,"removed dots at the end of @param and @return","Fabien Potencier",d529c0f64a688cc79b84a0aaaf0ac88a1b5aa266,"2016-06-28 05:50:50",8,8,0,1,1
+2015,"Christian Flothmann-2015","10 - October",Wednesday,2015-10,"[Yaml] escape backtick in markdown changelog","Christian Flothmann",d542bb62d3d1c2337ab8c35b179c28f7f55e97e6,"2015-10-28 21:33:57",1,1,0,1,1
+2020,"Fabien Potencier-2020","03 - March",Sunday,2020-03,"Add missing dots at the end of exception messages","Fabien Potencier",d54c2a8b93e8c53df947177807902753b8fb8462,"2020-03-15 09:01:00",2,2,0,1,1
+2016,"Christian Flothmann-2016","12 - December",Wednesday,2016-12,"handle empty lines inside unindented collection","Christian Flothmann",d5512e7d134872240b8b4b102b595011691944c7,"2016-12-28 18:13:31",1,17,16,1,1
+2018,"Fabien Potencier-2018","02 - February",Monday,2018-02,"removed version in @final @internal for version < 4.0","Fabien Potencier",d594ee0b3499a61ab68e08b836788471792b57bf,"2018-02-19 12:18:43",3,3,0,1,1
+2016,"Christian Flothmann-2016","01 - January",Wednesday,2016-01,"tag for dumped PHP objects must be a local one","Christian Flothmann",d5a7902da7e5af069bb8fdcfcf029a229deb1111,"2016-01-20 19:11:57",8,40,32,1,1
+2017,"Guilhem Niot-2017","05 - May",Thursday,2017-05,"[Yaml] Support tagged scalars","Guilhem Niot",d623d89dee191328927ec059b74e095ea30607dc,"2017-05-18 17:45:50",16,48,32,1,1
+2017,"Guilhem N-2017","01 - January",Tuesday,2017-01,"[Yaml] Remove internal arguments from the api","Guilhem N",d67fe7eaf6fdb1a9350bf2bdd727d64dbd814ddc,"2017-01-10 17:32:05",12,17,5,1,1
+2012,Drak-2012,"10 - October",Friday,2012-10,Nsdocblocks,Drak,d6894417bffb3298852ffaa202922254b7571666,"2012-10-19 16:43:59",3,3,0,1,1
+2014,"Luis Cordova-2014","01 - January",Monday,2014-01,"update year on licenses","Luis Cordova",d6ce55d18a957591312a1c1dd7098d72db0e2ed5,"2014-01-06 22:25:20",1,1,0,1,1
+2016,"Christian Flothmann-2016","03 - March",Thursday,2016-03,"fix testing deprecation messages","Christian Flothmann",d6fa3dde4a2f5449f4c27779f8da4f27d7c5738c,"2016-03-24 13:26:59",2,6,4,1,1
+2017,"Kévin Dunglas-2017","05 - May",Thursday,2017-05,"Allow individual bridges, bundles and components to be used with 4.0","Kévin Dunglas",d7906a08163e0450b015031ec81934553543e6d9,"2017-05-18 06:33:50",1,1,0,1,1
+2012,"Fabien Potencier-2012","05 - May",Friday,2012-05,"removed some files from check_cs as they have been fixed now","Fabien Potencier",d7dd4824ec9ba0cc10e964c9539917d1c70f81e9,"2012-05-11 16:04:46",0,0,0,1,1
+2015,"Nicolas Grekas-2015","10 - October",Sunday,2015-10,"[ci] SymfonyTestsListener is now auto-registered","Nicolas Grekas",d8434746e6f12b45fa1bdca1baadddd7e02b54af,"2015-10-11 08:09:32",4,0,-4,1,1
+2014,"Alex Pott-2014","09 - September",Sunday,2014-09,"[Yaml] Ensure whole number floats have their data type is persisted.","Alex Pott",d865924c74ec24f2eea9a69ae4d7b1146ec9edaa,"2014-09-21 19:22:48",6,18,12,1,1
+2014,"Graham Campbell-2014","12 - December",Wednesday,2014-12,"Removed unused imports","Graham Campbell",d95156ed29d180428f282e42694b498ecf11538f,"2014-12-03 20:18:13",1,0,-1,1,1
+2017,"Christian Flothmann-2017","06 - June",Saturday,2017-06,"[Yaml] deprecate the !str tag","Christian Flothmann",d9b345a37d71cd3747e15c1e5f08aa862b7fd3c8,"2017-06-24 14:09:41",8,23,15,1,1
+2017,"Christian Flothmann-2017","06 - June",Monday,2017-06,"[Yaml] use scalar type hints where possible","Christian Flothmann",da28ae7bbc59a1334d30c2634759f2645ce4a9a3,"2017-06-26 06:08:08",70,67,-3,1,1
+2016,"Christian Flothmann-2016","12 - December",Saturday,2016-12,"fix the inline level for dumped multi-line strings","Christian Flothmann",da61ca54e755bda2108f97ce67c37f0713df15b2,"2016-12-03 09:52:31",4,3,-1,1,1
+2016,"Christian Flothmann-2016","06 - June",Friday,2016-06,"parse embedded mappings only if value is a string","Christian Flothmann",da8e4c04c3fcd3419342a14caa8ff6ce71617907,"2016-06-17 14:16:22",1,1,0,1,1
+2019,"Jérémy Derussé-2019","08 - August",Thursday,2019-08,"Fix deprecated phpunit annotation","Jérémy Derussé",dab2c2e24f8a708b0d85d02a9f1be2e6e18419a9,"2019-08-01 22:48:42",128,65,-63,1,1
+2019,"Thomas Calvet-2019","10 - October",Thursday,2019-10,"Remove unused local variables in tests","Thomas Calvet",dab657db15207879217fc81df4f875947bf68804,"2019-10-24 12:44:17",2,2,0,1,1
+2014,"Julius Beckmann-2014","11 - November",Saturday,2014-11,"Add a deprecation note about Yaml::parse() file support #12701","Julius Beckmann",db39f8dc540b80eaf62cf60e02659e681e79d98b,"2014-11-29 13:06:55",1,8,7,1,1
+2016,"Roland Franssen-2016","11 - November",Monday,2016-11,"fixed phpdoc","Roland Franssen",db8dae7ff732262fbcbec0d209200ae3ec5e23b4,"2016-11-07 21:01:27",11,11,0,1,1
+2013,"Jean-François Simon-2013","07 - July",Thursday,2013-07,"[Yaml] removed wrong comment removal inside a string block","Jean-François Simon",dbc00aea34556f3ad6c1e31819bdbd9bb898f164,"2013-07-11 09:21:24",2,61,59,1,1
+2020,"Robin Chalas-2020","01 - January",Saturday,2020-01,"fix CS","Robin Chalas",dc344b7df891c9359076eb038f5984510f7fcee4,"2020-01-11 18:51:52",4,0,-4,1,1
+2021,"Fabien Potencier-2021","01 - January",Friday,2021-01,"Bump license year","Fabien Potencier",dcd7108778fec104bb224f952e3134aa2361c115,"2021-01-01 09:24:35",1,1,0,1,1
+2018,"Fabien Potencier-2018","09 - September",Saturday,2018-09,"removed usage of backticks in exception messages","Fabien Potencier",dce4103732c317c9a141e93501808162cc2cb0d0,"2018-09-08 06:40:26",7,7,0,1,1
+2017,"Christian Flothmann-2017","10 - October",Friday,2017-10,"parse references on merge keys with objects","Christian Flothmann",dcf3a9dfac146a0e10757a91de0b541fcd79de4f,"2017-10-06 12:26:09",0,33,33,1,1
+2021,"Christian Flothmann-2021","01 - January",Monday,2021-01,"a colon followed by spaces exclusively separates mapping keys and values","Christian Flothmann",dd3f77696d04158bc09849747748de3f4647aa80,"2021-01-11 13:44:09",1,34,33,1,1
+2017,"Guilhem Niot-2017","07 - July",Sunday,2017-07,"Suggest using quotes instead of Yaml::PARSE_KEYS_AS_STRINGS","Guilhem Niot",ddc23324e6cfe066f3dd34a37ff494fa80b617ed,"2017-07-23 12:40:01",13,10,-3,1,1
+2015,"Tobias Schultze-2015","09 - September",Monday,2015-09,"remove api tags from code","Tobias Schultze",ddf8cc1413b32ba0ee121e6467a67288cfde7563,"2015-09-28 16:58:12",14,0,-14,1,1
+2012,"Kris Wallsmith-2012","01 - January",Wednesday,2012-01,"optimized string starts with checks","Kris Wallsmith",dec12c2e2d34b508c34c54fdb0b3ebe446d0c20a,"2012-01-11 19:20:58",3,3,0,1,1
+2017,"Fabien Potencier-2017","06 - June",Thursday,2017-06,"Using FQ name for PHP_VERSION_ID","Fabien Potencier",dee17ff429c904941b444c6e7358e5d0db855c30,"2017-06-01 17:56:34",3,3,0,1,1
+2019,"Nicolas Grekas-2019","08 - August",Wednesday,2019-08,"Add return types to tests and final|internal|private methods","Nicolas Grekas",dfa2c49cf5a070d8109dd85804a327442e63c878,"2019-08-21 13:30:43",4,1,-3,1,1
+2017,"Christian Flothmann-2017","02 - February",Friday,2017-02,"consistently parse omitted keys as the colon","Christian Flothmann",dfe346249cf93e4faa8f10ddcb4948cad0a283b0,"2017-02-17 10:55:39",2,7,5,1,1
+2016,"Christian Flothmann-2016","12 - December",Thursday,2016-12,"[Yaml] parse multi-line strings","Christian Flothmann",e06c215f3dc78059cf45bb96353d7b4c4703a568,"2016-12-29 11:24:11",1,63,62,1,1
+2020,"Christian Flothmann-2020","08 - August",Thursday,2020-08,"stop using deprecated PHPUnit APIs","Christian Flothmann",e06e21e1632acefee71c2d4be67923abdc7f5cd3,"2020-08-13 17:28:52",1,1,0,1,1
+2011,"Brikou CARRE-2011","04 - April",Friday,2011-04,"removed empty lines/trailing spaces","Brikou CARRE",e107d5ff7b1f68d6a2154913fd77766e0f85b165,"2011-04-15 19:12:02",0,0,0,1,1
+2019,"Alexander M. Turek-2019","09 - September",Monday,2019-09,"Add types to constructors and private/final/internal methods (Batch III)","Alexander M. Turek",e108a6013d8d53f0c0b6d1c6589cf3fc3a391e98,"2019-09-30 13:36:09",9,9,0,1,1
+2013,"Fabien Potencier-2013","01 - January",Thursday,2013-01,"[Yaml] fixed default value","Fabien Potencier",e16e309e837249ce383979494c0199b6d6fec8eb,"2013-01-17 15:16:00",1,1,0,1,1
+2012,"Włodzimierz Gajda-2012","11 - November",Thursday,2012-11,"Fix export-ignore on Windows","Włodzimierz Gajda",e1aff6871fd39607d7ce638ff6b1f971cde6fe6a,"2012-11-08 09:51:48",1,1,0,1,1
+2017,"Nicolas Grekas-2017","05 - May",Thursday,2017-05,"Tweak travis and appveyor for Symfony 4","Nicolas Grekas",e1ec1ea2681ea81221cbfd0071fe11ce638a2a0f,"2017-05-18 07:23:23",1,1,0,1,1
+2018,"Nicolas Grekas-2018","04 - April",Friday,2018-04,"[Yaml] Throw parse error on unfinished inline map","Nicolas Grekas",e2c80e6ddcf0b03ce3b4223dd50affeb6bc5a6a4,"2018-04-06 11:01:31",0,12,12,1,1
+2017,"Christian Flothmann-2017","10 - October",Friday,2017-10,"[Yaml] initialize inline line numbers","Christian Flothmann",e3378cb20c869f6d40e53e463e9ce65c0c3ca62d,"2017-10-06 12:19:42",1,1,0,1,1
+2020,"Nicolas Grekas-2020","04 - April",Monday,2020-04,"[PropertyAccess] fix tests","Nicolas Grekas",e366a2e28466e004fb0e00f20a02745c4a0eeb7f,"2020-04-06 10:01:14",2,2,0,1,1
+2012,"Fabien Potencier-2012","04 - April",Friday,2012-04,"Revert ""merged branch Seldaek/master (PR #4133)""","Fabien Potencier",e39a6a7e8a429446787d388b677778a80bbe185f,"2012-04-27 17:55:40",1,1,0,1,1
+2017,"Nicolas Grekas-2017","06 - June",Thursday,2017-06,"[Yaml] Remove line number in deprecation notices","Nicolas Grekas",e3d5c6520b99eb2baf4d1c04f3697eb3e01f442c,"2017-06-08 14:28:59",13,13,0,1,1
+2019,"Christian Flothmann-2019","05 - May",Friday,2019-05,"drop support for mappings in multi-line blocks","Christian Flothmann",e464640dd39fb6cf1ffb29ba11d31f8d3e41faa4,"2019-05-31 10:46:22",3,8,5,1,1
+2019,"Luis Pabon-2019","08 - August",Thursday,2019-08,"Ensure signatures for setUp|tearDown|setUpAfterClass|tearDownAfterClass methods in tests are compatible with phpunit 8.2","Luis Pabon",e4f40d70b6c1fe951eef773e0080e646c0ba3602,"2019-08-01 10:16:35",2,2,0,1,1
+2016,"Christian Flothmann-2016","03 - March",Thursday,2016-03,"fix testing deprecation messages","Christian Flothmann",e4fbcc65f90909c999ac3b4dfa699ee6563a9940,"2016-03-24 13:09:50",2,6,4,1,1
+2011,"Igor Wiedler-2011","09 - September",Saturday,2011-09,"[composer] add composer.json","Igor Wiedler",e60c0d68640e662e88d879f0df139e022335a92a,"2011-09-24 17:13:35",0,22,22,1,1
+2020,"Tom Klingenberg-2020","09 - September",Wednesday,2020-09,"remove superfluous cast","Tom Klingenberg",e6f16d8b770d09a41f4780b72659fe238b764438,"2020-09-16 23:48:05",1,1,0,1,1
+2020,"Javier Eguiluz-2020","03 - March",Wednesday,2020-03,"Fixed some typos","Javier Eguiluz",e701b47e11749970f63803879c4febb520f07b6c,"2020-03-25 12:02:26",1,1,0,1,1
+2013,"Fabien Potencier-2013","05 - May",Thursday,2013-05,"updated version to 2.4","Fabien Potencier",e7245ab4c431ac427b49bde7795d3b286df2ca79,"2013-05-16 07:54:39",1,1,0,1,1
+2020,"Alexander M. Turek-2020","07 - July",Sunday,2020-07,"Fix PHPUnit 8.5 deprecations.","Alexander M. Turek",e7fa05917ae931332a42d65b577ece4d497aad81,"2020-07-12 22:27:19",6,6,0,1,1
+2015,victoria-2015,"01 - January",Thursday,2015-01,"[Yaml] Fixed #10597: Improved Yaml directive parsing",victoria,e8148850c66c98f85bb9ffe01c157af310d8fd2d,"2015-01-08 15:45:16",1,12,11,1,1
+2012,"William DURAND-2012","04 - April",Friday,2012-04,"[Components] Tests/Autoloading fixes","William DURAND",e8492cee5bdec3ede694cec22bb86a75947f34b0,"2012-04-27 13:21:31",2,2,0,1,1
+2012,"Fabien Potencier-2012","05 - May",Tuesday,2012-05,"fixed phpdoc @param alignment","Fabien Potencier",e84e6373afb4faef66fd4e3a543a3da156583021,"2012-05-15 20:19:31",0,0,0,1,1
+2014,"Christian Flothmann-2014","11 - November",Saturday,2014-11,"improve error message for multiple documents","Christian Flothmann",e8c8971c8dda613dae2766116a381fad3588fe76,"2014-11-01 12:21:10",0,26,26,1,1
+2011,"Fabien Potencier-2011","06 - June",Tuesday,2011-06,"[Yaml] renamed load() to parse()","Fabien Potencier",e9936264b274f1a4b11a8d4d62d817b20b9a987a,"2011-06-14 10:19:35",7,7,0,1,1
+2017,"Christian Flothmann-2017","09 - September",Tuesday,2017-09,"[Yaml] support parsing files","Christian Flothmann",eaa08afe947cb5affdf2b5fd39e7de92bd96c872,"2017-09-19 09:04:34",48,175,127,100,1
+2019,"Nicolas Grekas-2019","09 - September",Monday,2019-09,"Require exact match when reading from stdin with a dash","Nicolas Grekas",eafa9b677c0520a91aff6926d61d6752c12ecd30,"2019-09-09 06:40:31",2,2,0,1,1
+2017,"Christian Flothmann-2017","10 - October",Tuesday,2017-10,"[Yaml] parse references on merge keys","Christian Flothmann",eb877f1c8d16107971e7fb93f7649dd0f6d11a25,"2017-10-03 22:12:02",4,36,32,1,1
+2019,"Jérémy Derussé-2019","08 - August",Thursday,2019-08,"Fix assertInternalType deprecation in phpunit 9","Jérémy Derussé",ec0045bb91bfc3cfb75c6e2049a4f0700c8e8dd6,"2019-08-01 07:31:22",1,1,0,1,1
+2014,"Christian Raue-2014","07 - July",Monday,2014-07,"removed defaults from PHPUnit configuration","Christian Raue",ec2c1cd7b55321f199c3653c30ef497e852678cd,"2014-07-07 10:13:42",6,0,-6,1,1
+2020,"Christian Flothmann-2020","09 - September",Friday,2020-09,"[Yaml] simplify the test","Christian Flothmann",ec3c2ac4d881a4684c1f0317d2107f1a4152bad9,"2020-09-18 15:57:36",9,3,-6,1,1
+2012,"Jordi Boggiano-2012","04 - April",Friday,2012-04,"Update branch aliases","Jordi Boggiano",ec5deeb67e07d489e0919432bd198eb5f812d8fa,"2012-04-27 10:47:50",1,1,0,1,1
+2013,fh-github@fholzhauer.de-2013,"08 - August",Monday,2013-08,"fixes fabpots comment at yaml pr#6",fh-github@fholzhauer.de,ec9e962c739a2b072b97bf4d6ccbe81357e811bf,"2013-08-26 18:42:20",1,0,-1,1,1
+2016,"Christian Flothmann-2016","05 - May",Thursday,2016-05,"[Yaml] search for colons in strings only","Christian Flothmann",eca51b7b65eb9be6af88ad7cc91685f1556f5c9a,"2016-05-26 21:33:50",1,14,13,1,1
+2019,"Fabien Potencier-2019","01 - January",Wednesday,2019-01,"fixed CS","Fabien Potencier",ed6176683c1ebe8b512d6744df8fb2b7bd40c296,"2019-01-16 18:24:45",665,665,0,500,1
+2013,"Bernhard Schussek-2013","01 - January",Saturday,2013-01,"Fixed @expectedException definitions to reference absolute exception paths","Bernhard Schussek",edec5d74dff258a3af1734c9870f3e7d7700e6a0,"2013-01-05 17:52:40",3,3,0,1,1
+2017,"Christian Flothmann-2017","05 - May",Monday,2017-05,"[Yaml] fix multiline block handling","Christian Flothmann",ee9f65098aeeab57894185205c93e2d0c3eed8a7,"2017-05-22 09:14:20",2,52,50,1,1
+2019,"Shaharia Azam-2019","12 - December",Friday,2019-12,"Update links to documentation","Shaharia Azam",ef67314ed0a51cb20cbbf7e7b2bb0d6106072ed3,"2019-12-20 22:13:14",1,1,0,1,1
+2016,"Christian Flothmann-2016","08 - August",Thursday,2016-08,"[Yaml] update changelog and upgrade files","Christian Flothmann",f08589c673cdd2bbdccf7f60f47f24481c602ef5,"2016-08-04 22:00:11",0,3,3,1,1
+2013,"Fabien Potencier-2013","01 - January",Thursday,2013-01,"added a way to enable/disable PHP support when parsing a YAML input via Yaml::parse()","Fabien Potencier",f0b39e47422ef1f3d361e56453abeb94f3f8addf,"2013-01-17 08:31:37",5,54,49,1,1
+2015,"Dariusz Ruminski-2015","03 - March",Saturday,2015-03,"CS: Convert double quotes to single quotes","Dariusz Ruminski",f14a1bbd5993a79fa9472824f0ca8555eaa792db,"2015-03-21 10:51:07",13,13,0,1,1
+2012,"William DURAND-2012","08 - August",Wednesday,2012-08,"Add minimum-stability (dev) in each component","William DURAND",f18e004fc975707bb4695df1dbbe9b0d8c8b7715,"2012-08-22 13:48:41",0,1,1,1,1
+2013,"Fabien Potencier-2013","01 - January",Thursday,2013-01,"updated the branch alias in composer files","Fabien Potencier",f198ac28048eeceae852419c076123aaee59cd1c,"2013-01-31 21:39:01",1,1,0,1,1
+2016,"Christian Flothmann-2016","02 - February",Monday,2016-02,"introduce flags to customize the parser behavior","Christian Flothmann",f20a2f44cf723571cbb550e3d0464d9dca76b21d,"2016-02-08 18:49:14",32,213,181,100,1
+2014,"Tobias Schultze-2014","06 - June",Wednesday,2014-06,"[Yaml] fix priority of sequence merges according to spec","Tobias Schultze",f24ad3aad84848dd73320bd1cce1a2f3638e8cd5,"2014-06-18 15:42:59",16,38,22,1,1
+2020,"Nicolas Grekas-2020","10 - October",Saturday,2020-10,"fix merge","Nicolas Grekas",f284e032c3cefefb9943792132251b79a6127ca6,"2020-10-24 12:03:25",4,0,-4,1,1
+2015,"Fabien Potencier-2015","10 - October",Monday,2015-10,"[Yaml] deprecated usage of @ and ` at the beginning of an unquoted string","Fabien Potencier",f301c743e1495960f87686c2125bf3fbed9896eb,"2015-10-19 09:47:48",0,24,24,1,1
+2017,"Oskar Stark-2017","09 - September",Thursday,2017-09,"removed useless PHPDoc","Oskar Stark",f3969e7927475780db1889c66046596f4b7d7c22,"2017-09-28 06:42:58",4,0,-4,1,1
+2016,"Fabien Potencier-2016","09 - September",Wednesday,2016-09,"[FrameworkBundle] fixed yaml:lint when yaml is not installed along side framwork-bundle","Fabien Potencier",f3abbc0c63c0c7803db79a7398bb983e5b089f53,"2016-09-28 04:06:31",9,35,26,1,1
+2016,"Christian Flothmann-2016","06 - June",Friday,2016-06,"[Yaml] properly count skipped comment lines","Christian Flothmann",f3c0ae47ed0f698cc80db34245bdecf61c7e3cf1,"2016-06-10 21:57:14",60,66,6,1,1
+2019,"Nicolas Grekas-2019","05 - May",Tuesday,2019-05,"Bump Symfony 5.0 to PHP 7.2","Nicolas Grekas",f3d466ccdc8dcf382fb4ae2f5a114cd82d5274f7,"2019-05-28 13:10:17",1,1,0,1,1
+2018,"Thomas Counsell-2018","02 - February",Tuesday,2018-02,"[YAML] Issue #26065: leading spaces in YAML multi-line string literals","Thomas Counsell",f44c40e9eb06da59bdaf83309e9a1312eb6eaf84,"2018-02-06 16:18:24",1,19,18,1,1
+2020,"Gocha Ossinkine-2020","05 - May",Thursday,2020-05,"[Yaml] Fix escaped quotes in quoted multi-line string","Gocha Ossinkine",f45861c9810e58a8a12992750f85934ce3dbd69b,"2020-05-07 17:31:15",1,29,28,1,1
+2017,"Christian Flothmann-2017","06 - June",Friday,2017-06,"[Yaml] fix the displayed line number","Christian Flothmann",f46d917c00519312152720916760ab18550c0ce5,"2017-06-30 08:50:50",12,4,-8,1,1
+2019,"Nicolas Grekas-2019","08 - August",Tuesday,2019-08,"Add return types to internal|final|private methods","Nicolas Grekas",f609e5b0b9ec45e8990b0e98165a927479b1d3e0,"2019-08-20 11:52:38",10,2,-8,1,1
+2017,"Nicolas Grekas-2017","10 - October",Thursday,2017-10,"Remove some visual debt by adding type hints on final methods/classes","Nicolas Grekas",f63664afe959bb1289147112342506a8e215e271,"2017-10-19 01:32:22",2,2,0,1,1
+2020,"Nicolas Grekas-2020","10 - October",Tuesday,2020-10,"Update versions in composer.json","Nicolas Grekas",f67f57d777e8076c0cb6fffb7d3f25d135ff73c9,"2020-10-06 14:37:11",1,1,0,1,1
+2012,"Fabien Potencier-2012","05 - May",Monday,2012-05,"updated minimum PHP version to 5.3.3","Fabien Potencier",f6d671ac4936cc300f57d5d57d34a50660d8199c,"2012-05-07 08:29:08",1,1,0,1,1
+2011,"Fabien Potencier-2011","12 - December",Sunday,2011-12,"fixed CS","Fabien Potencier",f801d51552ea8b6e92679d9e8ea13b408760a0a1,"2011-12-18 13:42:59",0,0,0,1,1
+2016,"Christian Flothmann-2016","07 - July",Thursday,2016-07,"deprecate missing space after mapping key colon","Christian Flothmann",f891dd5781923380e069385881728250c929cb4b,"2016-07-28 21:09:37",0,16,16,1,1
+2011,"Fabien Potencier-2011","11 - November",Tuesday,2011-11,"updated composer.json files to contain information about autoloading and target dirs","Fabien Potencier",f897fd9d2fb3ccd578e13534667e6ccafc2daf50,"2011-11-01 11:30:24",1,5,4,1,1
+2015,"Peter Rehm-2015","11 - November",Sunday,2015-11,"Improved error messages for Yaml Deprecations","Peter Rehm",f8cb69060fcf0a8a8475d3bbbacc2cd6b8556cbf,"2015-11-29 20:43:36",3,3,0,1,1
+2012,"Filippo Tessarotto-2012","09 - September",Friday,2012-09,"Optimize autoload prefix in composer.json","Filippo Tessarotto",f965c71d0edb97cef36c556f2bda25298fce7e69,"2012-09-28 07:34:16",1,1,0,1,1
+2017,"Christian Flothmann-2017","04 - April",Tuesday,2017-04,"[Yaml] release memory after parsing","Christian Flothmann",f9bafc47e817c7decea48698085a1a62a67f61fe,"2017-04-11 07:48:47",0,6,6,1,1
+2013,"Fabien Potencier-2013","09 - September",Thursday,2013-09,"[Yaml] reverted previous merge partially (refs #8897)","Fabien Potencier",f9ef1a2a6d1ddb63bcd66eee8b2e2deaffcc857b,"2013-09-19 16:24:31",1,1,0,1,1
+2015,"Vladimir Reznichenko-2015","03 - March",Friday,2015-03,"[2.3] [Config] [Console] [DependencyInjection] [DomCrawler] [Form] [HttpKernel] [PropertyAccess] [Security] [Translation] [Yaml] static code analysis, code cleanup","Vladimir Reznichenko",fa2d0a20aeb6d24a0acc32a7f2813073d8ec8509,"2015-03-06 19:37:36",2,2,0,1,1
+2012,"Fabien Potencier-2012","07 - July",Sunday,2012-07,"[Yaml] fixed parsing when a mapping is mixed within a sequence and vice-versa (closes #4634)","Fabien Potencier",fa301d6bd6d2538b48fbf668879d6e052ed9caad,"2012-07-01 09:19:53",0,36,36,1,1
+2018,"Jörn Lang-2018","12 - December",Tuesday,2018-12,"[Yaml] ensures that the mb_internal_encoding is reset to its initial value","Jörn Lang",fac7c487488520109302a604d13c28f15e0a9640,"2018-12-11 13:45:34",2,4,2,1,1
+2012,"Tim Nagel-2012","06 - June",Tuesday,2012-06,"Added failing YAML inline string to tests","Tim Nagel",fada541a670ffb2b9932a4a2e73f7aafee6db268,"2012-06-12 22:07:25",0,1,1,1,1
+2017,"Christian Schmidt-2017","01 - January",Tuesday,2017-01,"[Yaml] Allow dumping empty array as YAML sequence","Christian Schmidt",fb6e13970a3da75c5a382ca21fd26d94acfcec4a,"2017-01-31 11:07:40",1,29,28,1,1
+2012,Alexander-2012,"12 - December",Wednesday,2012-12,"[Yaml] Add test showing that dates before 01 Jan 1970 are correctly parsed",Alexander,fb72a16857d99722019e5bd307c0b4d0a381dc7e,"2012-12-12 10:51:43",0,2,2,1,1
+2018,"Nicolas Grekas-2018","07 - July",Thursday,2018-07,"Alpha-ordering for ""use"" statements","Nicolas Grekas",fbf876678e29dc634430dcf0096e216eb0004467,"2018-07-26 09:03:18",3,3,0,1,1
+2016,"Nicolas Grekas-2016","02 - February",Tuesday,2016-02,"Fix merge","Nicolas Grekas",fc0ad7a7450ed4434c9a397796a9f56199de2053,"2016-02-23 07:38:51",1,1,0,1,1
+2016,"Romain Neutron-2016","10 - October",Friday,2016-10,"[Yaml] Fix String offset cast error in Inline parser","Romain Neutron",fc738a6cb48d418caee991c634851a7f4d444505,"2016-10-28 07:34:49",1,13,12,1,1
+2015,"Christian Flothmann-2015","11 - November",Wednesday,2015-11,"[Yaml] more fixes to changelog and upgrade files","Christian Flothmann",fc96822c3046d1dd52997bd9c7b98afb7fa1654d,"2015-11-25 12:40:04",2,14,12,1,1
+2014,"Tobias Schultze-2014","06 - June",Wednesday,2014-06,"[Yaml] fix overwriting of keys after merged map","Tobias Schultze",fcfc29182d793e30f00961b2e60983bc64b38331,"2014-06-18 17:47:01",11,26,15,1,1
+2016,"Christian Flothmann-2016","05 - May",Sunday,2016-05,"[Yaml] properly handle unindented collections","Christian Flothmann",fdb604ad53fd4497ca83fc3938e1aa90a6ea494a,"2016-05-22 16:02:36",1,29,28,1,1
+2015,"Fabien Potencier-2015","04 - April",Friday,2015-04,"updated version to 2.8","Fabien Potencier",fdded56dde4ca9efce6322887bf5eaa7bb0aae3e,"2015-04-10 08:56:33",1,1,0,1,1
+2015,"Fabien Potencier-2015","10 - October",Monday,2015-10,"[Yaml] marked some classes as being internal","Fabien Potencier",ff7f886a33f5b7a26a94d62f6e14bb9cf0e3bf5d,"2015-10-12 11:16:35",0,6,6,1,1
+2010,"Kris Wallsmith-2010","10 - October",Sunday,2010-10,"Removed all those spaces after @author that were bothering me so…","Kris Wallsmith",ffb82ce92c36325f327a110e00f245eb452fff97,"2010-10-17 11:45:15",0,0,0,1,1
