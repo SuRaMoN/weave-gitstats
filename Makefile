@@ -1,5 +1,5 @@
 
-.PHONY: default deploy docker-start
+.PHONY: default update-all deploy demowebsite-update docker-update
 SHELL=/bin/bash
 
 include $(wildcard deploy.config)
@@ -7,19 +7,28 @@ include $(wildcard deploy.config)
 default:
 	curl -L "https://github.com/vrana/adminer/releases/download/v4.3.1/adminer-4.3.1-en.php" > adminer.php
 
+update-all:
+	git push origin master
+	$(MAKE) deploy
+	$(MAKE) demowebsite-update
+	$(MAKE) docker-update
+
 deploy:
-	rsync -va -e ssh . "$(SSH_PATH)"
+	rsync -va --delete -e ssh . "$(SSH_PATH)"
 	scp "config.ini.remote" "$(SSH_PATH)/config.ini"
+
+demowebsite-update:
+	DIR="$$(mktemp -d)" && \
+	git clone -b demowebsite --single-branch git@github.com:SuRaMoN/weave-gitstats.git "$$DIR" && \
+	rm -Rf "$$DIR"/* && \
+	docker run -p 8080:80 -e GIT_URL="https://github.com/symfony/yaml.git" "$$(docker build -q .)" ./export php://stdout > "$$DIR/weave.zip" && \
+	cd "$$DIR" && \
+	unzip "weave.zip" && rm "weave.zip" && \
+	git add . && git add -u . && \
+	git commit --amend -m 'Demo website' && \
+	git push -f origin demowebsite
 
 docker-update:
 	HASH="$$(docker build -q .)" && \
 	docker tag "$$HASH" suramon/weave-gitstats
 	docker push suramon/weave-gitstats
-
-docker-start:
-	service mysql restart
-	service apache2 restart
-	echo -e "git_url = \"$$GIT_URL\"\nmysql_host = 127.0.0.1\nmysql_user = root\nmysql_pass = \"\"\nmysql_db = gitstats" > config.ini
-	./load-git-stats
-	@echo -e "\nYou can view your statistics on: http://localhost:8080\nLeave this window open"
-	@tail -f /dev/null

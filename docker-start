@@ -1,0 +1,29 @@
+#!/bin/bash
+
+set -e
+
+cd "$(dirname "$0")"
+
+IS_CMD=1
+if [[ "$*" == "/bin/sh -c tail -f /dev/null" || "$*" == "bash" || "$*" == "/bin/bash" ]]; then
+    IS_CMD=0
+fi
+
+if [[ "$IS_CMD" == "1" ]]; then
+    exec 3>&1
+    exec 4>&2
+    exec > /dev/null
+    exec 2> /dev/null
+fi
+
+service mysql restart
+service apache2 restart
+echo -e "git_url = \"$GIT_URL\"\nmysql_host = 127.0.0.1\nmysql_user = root\nmysql_pass = \"\"\nmysql_db = gitstats" > config.ini
+./load-git-stats
+echo -e "\nYou can view your statistics on: http://localhost:8080\nLeave this window open"
+
+if [[ "$IS_CMD" == "1" ]]; then
+    exec 1>&3 2>&4 3>&-
+fi
+
+exec "$@"

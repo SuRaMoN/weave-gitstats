@@ -67,5 +67,5 @@ header('Content-Type: application/zip');
 header('Content-Disposition: attachment; filename=export.zip');
 
 chdir($dir);
-passthru('zip -r - .');
+passthru('zip -qr - .');
 exec('rm -Rf ' . escapeshellarg($dir));

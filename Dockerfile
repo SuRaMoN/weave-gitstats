@@ -18,4 +18,5 @@ COPY apache-virtualhost.conf /etc/apache2/sites-available/weave-gitstats.conf
 COPY . /var/www/weave-gitstats
 RUN a2ensite weave-gitstats
 
-ENTRYPOINT /usr/bin/make -C /var/www/weave-gitstats docker-start
+ENTRYPOINT ["/var/www/weave-gitstats/docker-start"]
+CMD tail -f /dev/null
