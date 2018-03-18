@@ -26,7 +26,8 @@ demowebsite-update:
 	unzip "weave.zip" && rm "weave.zip" && \
 	git add . && git add -u . && \
 	git commit --amend -m 'Demo website' && \
-	git push -f origin demowebsite
+	git push -f origin demowebsite && \
+	rm -Rf "$$DIR"
 
 docker-update:
 	HASH="$$(docker build -q .)" && \
