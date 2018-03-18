@@ -18,7 +18,8 @@ fi
 
 service mysql restart
 service apache2 restart
-echo -e "git_url = \"$GIT_URL\"\nmysql_host = 127.0.0.1\nmysql_user = root\nmysql_pass = \"\"\nmysql_db = gitstats" > config.ini
+mysql -e 'update mysql.user set plugin = "mysql_native_password"; flush privileges;'
+echo -e "git_url = \"$GIT_URL\"\nmysql_host = localhost\nmysql_user = root\nmysql_pass = \"\"\nmysql_db = gitstats" > config.ini
 ./load-git-stats
 echo -e "\nYou can view your statistics on: http://localhost:8080\nLeave this window open"
 

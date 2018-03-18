@@ -1,5 +1,5 @@
 
-FROM ubuntu:17.04
+FROM ubuntu:18.04
 EXPOSE 80
 
 # Make all installs non interactive
@@ -8,7 +8,7 @@ RUN echo 'debconf debconf/frontend select Noninteractive' | debconf-set-selectio
 
 RUN \
     apt-get update && \
-    apt-get install mysql-server apache2 libapache2-mod-php7.0 git make wget rsync php7.0-mysql php7.0-zip zip
+    apt-get install mysql-server apache2 libapache2-mod-php7.2 git make wget rsync php7.2-mysql php7.2-zip zip
 
 RUN a2enmod headers
 
