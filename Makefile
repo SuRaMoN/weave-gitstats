@@ -23,6 +23,7 @@ demowebsite-update:
 	rm -Rf "$$DIR"/* && \
 	docker run -p 8080:80 -e GIT_URL="https://github.com/symfony/yaml.git" "$$(docker build -q .)" ./export php://stdout > "$$DIR/weave.zip" && \
 	cd "$$DIR" && \
+	rm -Rf *.csv && \
 	unzip "weave.zip" && rm "weave.zip" && \
 	git add . && git add -u . && \
 	git commit --amend -m 'Demo website' && \

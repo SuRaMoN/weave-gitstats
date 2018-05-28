@@ -55,6 +55,7 @@ foreach (glob(__DIR__ . '/*-dashboards/*.weave') as $dashboard) {
 }
 
 copy(__DIR__ . '/weave.html', "$dir/weave.html");
+exec('cp -R ' . escapeshellarg(__DIR__ . '/weave') . ' ' .  escapeshellarg("$dir/weave"));
 
 ob_start();
 $statisticsOnly = true;
