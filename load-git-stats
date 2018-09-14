@@ -33,7 +33,7 @@ if (count($argv) == 1) {
 
 if (count($argv) == 2 && $argv[1] == '--load-cwd') {
     echo "Reading git log...\n";
-    passthru('git log --ignore-all-space -M --numstat --date=short --pretty="%x00%at%x00%H%x00%an%x00%s%x00" | ' . escapeshellcmd($selfPath) . ' --with-input', $exitCode);
+    passthru('git log --ignore-all-space -l10000 -M --numstat --date=short --pretty="%x00%at%x00%H%x00%an%x00%s%x00" | ' . escapeshellcmd($selfPath) . ' --with-input', $exitCode);
     exit($exitCode);
 }
 
