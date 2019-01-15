@@ -15,7 +15,6 @@ update-all:
 
 deploy:
 	rsync -va --delete -e ssh . "$(SSH_PATH)"
-	scp "config.ini.remote" "$(SSH_PATH)/config.ini"
 
 demowebsite-update:
 	DIR="$$(mktemp -d)" && \
