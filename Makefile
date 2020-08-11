@@ -14,7 +14,7 @@ update-all:
 	$(MAKE) docker-update
 
 deploy:
-	rsync -va --delete -e ssh . "$(SSH_PATH)"
+	rsync -va --delete --exclude=config.ini -e ssh . "$(SSH_PATH)"
 
 demowebsite-update:
 	DIR="$$(mktemp -d)" && \
